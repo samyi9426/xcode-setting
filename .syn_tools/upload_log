@@ -11,5 +11,5 @@ cd "$shellDir"
 
 git add *
 git add .*
-git commit -a -m "自动同步...($(get_current_date))"
+git commit -a -m "自动同步[at $(get_current_date)]"
 git push -f
