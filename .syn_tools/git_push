@@ -2,7 +2,6 @@
 
 shellDir=$(dirname $0)
 cd "$shellDir"
-# cd ..
 
 git add *
 git add .*
