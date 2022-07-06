@@ -1,0 +1,10 @@
+#!/bin/bash
+# 同步log
+
+shellDir=$(dirname $0)
+cd "$shellDir"
+
+git add *
+git add .*
+git commit -a -m "自动同步"
+git push -f
