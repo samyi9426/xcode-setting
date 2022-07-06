@@ -10,7 +10,7 @@ cd "$shellDir"
 
 git add *
 git add .*
-git commit -m "自动同步..."
+git commit -m  "自动同步[at $(get_current_date)]"
 git push -f
 
 echo -e "--------------- ⏫⏫⏫⏫⏫ push 执行结束时间[$(get_current_date)] ⏫⏫⏫⏫⏫ ----------------\n.\n"
