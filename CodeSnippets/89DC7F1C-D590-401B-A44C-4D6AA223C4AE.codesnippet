@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>cmd</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (RACCommand *)&lt;#commandName#&gt;Cmd
+{
+    if (!_&lt;#commandName#&gt;Cmd) {
+        _&lt;#commandName#&gt;Cmd = [[RACCommand alloc] initWithSignalBlock:^RACSignal * _Nonnull(id  _Nullable input) {
+            return [RACSignal createSignal:^RACDisposable * _Nullable(id&lt;RACSubscriber&gt;  _Nonnull subscriber) {
+                // do something, and then send signal
+                [self description];
+                return nil;
+            }];
+        }];
+    }
+    
+    return _&lt;#commandName#&gt;Cmd;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>89DC7F1C-D590-401B-A44C-4D6AA223C4AE</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>cmd</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>cmd</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

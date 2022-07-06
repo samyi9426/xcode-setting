@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>raco</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>[RACObserve(&lt;#target#&gt;, &lt;#keypath#&gt;) subscribeNext:^(id  _Nullable x) {
+        &lt;# #&gt;
+    }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7D461ACA-C79F-4B91-8307-C144BFA68308</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>[RACObserve(&lt;#target#&gt;, &lt;#keypath#&gt;) subscribeNext:^(id  _Nullable x) {
+        &lt;# #&gt;
+    }];</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>[RACObserve(&lt;#target#&gt;, &lt;#keypath#&gt;) subscribeNext:^(id  _Nullable x) {
+        &lt;# #&gt;
+    }];</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

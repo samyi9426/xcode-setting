@@ -1,0 +1,7 @@
+#!/bin/bash
+
+shellDir=$(dirname $0)
+cd $shellDir
+
+
+git pull
