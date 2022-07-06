@@ -123,3 +123,22 @@ To github.com:samingzhong/xcode-setting.git
 
 --------------- ⏫⏫⏫⏫⏫ push 开始执行[2022-07-07 01:46:32] ⏫⏫⏫⏫⏫ ----------------
 --------------- ⏫⏫⏫⏫⏫ push 开始执行[2022-07-07 01:54:53] ⏫⏫⏫⏫⏫ ----------------
+[master 34c9780] 自动同步...
+ 11 files changed, 9 insertions(+), 1 deletion(-)
+ delete mode 100644 .syn_tools/a
+ delete mode 100644 .syn_tools/aa
+ delete mode 100644 .syn_tools/aaa
+ delete mode 100644 .syn_tools/b
+ delete mode 100644 .syn_tools/c
+ delete mode 100644 .syn_tools/cc
+ delete mode 100644 .syn_tools/da
+ delete mode 100644 .syn_tools/dd
+ delete mode 100644 .syn_tools/dddda
+To github.com:samingzhong/xcode-setting.git
+   457212e..34c9780  master -> master
+--------------- ⏫⏫⏫⏫⏫ push 执行结束时间[2022-07-07 01:54:57] ⏫⏫⏫⏫⏫ ----------------
+.
+
+--------------- ⏬⏬⏬⏬⏬ pull 开始执行[2022-07-07 01:55:24] ⏬⏬⏬⏬⏬ ----------------
+---------------  before pull; git stash push ----------------
+--------------- ⏫⏫⏫⏫⏫ push 开始执行[2022-07-07 01:57:21] ⏫⏫⏫⏫⏫ ----------------

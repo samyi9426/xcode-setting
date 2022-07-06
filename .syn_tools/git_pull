@@ -6,8 +6,8 @@ get_current_date (){
 
 
 echo "--------------- ⏬⏬⏬⏬⏬ pull 开始执行[$(get_current_date)] ⏬⏬⏬⏬⏬ ----------------"
-echo "---------------  before pull; git stash push ----------------"
-git stash push
+# echo "---------------  before pull; git stash push ----------------"
+# git stash push
 
 
 shellDir=$(dirname $0)
@@ -16,5 +16,5 @@ cd "$shellDir"
 git pull
 
 echo -e "--------------- ⏬⏬⏬⏬⏬ pull 执行结束时间[$(get_current_date)] ⏬⏬⏬⏬⏬ ----------------\n.\n"
-echo "---------------  after pull; git stash pop ----------------"
-git stash pop
+# echo "---------------  after pull; git stash pop ----------------"
+# git stash pop
