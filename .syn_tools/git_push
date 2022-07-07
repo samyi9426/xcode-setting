@@ -1,3 +1,5 @@
 #!/bin/bash
 sh .inner_tools/git_push >> syn.log 2>&1
 echo "hello,sleep 10s..."
+sleep 10
+sh .inner_tools/upload_log
