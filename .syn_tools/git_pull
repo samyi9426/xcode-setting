@@ -1,3 +1,4 @@
 #!/bin/bash
 
-sh .inner_tools/git_pull > syn.log 2>&1
+sh .inner_tools/git_pull >> syn.log 2>&1
+sh .inner_tools/upload_log
