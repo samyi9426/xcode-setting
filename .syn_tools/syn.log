@@ -581,3 +581,15 @@ Already up to date.
 
 --------------- ⏫⏫⏫⏫⏫ push 开始执行[2022-07-07 16:29:01] ⏫⏫⏫⏫⏫ ----------------
 当前目录:/Users/samingzhong/Library/Developer/Xcode/UserData/.syn_tools/.inner_tools
+The following paths are ignored by one of your .gitignore files:
+IB Support
+hint: Use -f if you really want to add them.
+hint: Turn this message off by running
+hint: "git config advice.addIgnoredFile false"
+[master 84817bd] 自动同步(push)[at 2022-07-07 16:29:01]
+ 3 files changed, 24 insertions(+), 12 deletions(-)
+ rewrite .syn_tools/crontab.txt (92%)
+To github.com:samingzhong/xcode-setting.git
+   68a87dd..84817bd  master -> master
+--------------- ⏫⏫⏫⏫⏫ push 执行结束时间[2022-07-07 16:29:07] ⏫⏫⏫⏫⏫ ----------------
+
