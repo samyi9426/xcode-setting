@@ -1,11 +1,11 @@
-#家里机器 ....
-
+#家里机器
+#/Users/samingzhong
 
 
 # 公司机器
 # xcode setting
 # 下载
-00 00 * * * ~/Library/Developer/Xcode/UserData/.syn_tools/git_pull
+00 00 * * * /Users/samingzhong/Library/Developer/Xcode/UserData/.syn_tools/git_pull
 
 # 上传
-30 21 * * * ~/Library/Developer/Xcode/UserData/.syn_tools/git_push
+40 10 * * * /Users/samingzhong/Library/Developer/Xcode/UserData/.syn_tools/git_push

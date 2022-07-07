@@ -27,4 +27,4 @@ git commit -m  "自动同步[at $(get_current_date)]"
 git push -f
 
 echo "--------------- ⏫⏫⏫⏫⏫ push 执行结束时间[$(get_current_date)] ⏫⏫⏫⏫⏫ ----------------"
-echo "."
+echo ""
