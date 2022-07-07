@@ -16,6 +16,8 @@ pop_stash () {
 
 
 echo "--------------- ⏫⏫⏫⏫⏫ push 开始执行[$(get_current_date)] ⏫⏫⏫⏫⏫ ----------------"
+
+
 shellDir=$(dirname $0)
 cd "$shellDir"
 
