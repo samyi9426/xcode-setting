@@ -1,7 +1,11 @@
-# 家里机器
+#家里机器 ....
+
+
+
+# 公司机器
 # xcode setting
 # 下载
-00 00 * * * `~/Library/Developer/Xcode/UserData/.syn_tools/git_pull>>/Users/zhongxm/Library/Developer/Xcode/UserData/.syn_tools/syn.log 2>&1`
+00 00 * * * ~/Library/Developer/Xcode/UserData/.syn_tools/git_pull
 
 # 上传
-30 21 * * * `/Users/zhongxm/Library/Developer/Xcode/UserData/.syn_tools/git_push>>/Users/zhongxm/Library/Developer/Xcode/UserData/.syn_tools/syn.log 2>&1`
+30 21 * * * ~/Library/Developer/Xcode/UserData/.syn_tools/git_push
