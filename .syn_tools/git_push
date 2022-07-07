@@ -1,4 +1,7 @@
 #!/bin/bash
 
+shellDir=$(dirname $0)
+cd "$shellDir"
+
 sh .inner_tools/git_push >> syn.log 2>&1
 sh .inner_tools/upload_log
