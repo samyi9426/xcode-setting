@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# 脚本说明：拉取origin/master的文件到本地，然后上传操作日志。
+
 shellDir=$(dirname $0)
 cd "$shellDir"
 
