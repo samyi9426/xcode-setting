@@ -729,3 +729,27 @@ shellDir:/Users/zhongxm/Library/Developer/Xcode/UserData/.syn_tools
 pwd:/Users/zhongxm
 --------------- ⏫⏫⏫⏫⏫ push 开始执行[2022-07-09 21:30:01] ⏫⏫⏫⏫⏫ ----------------
 当前目录:/Users/zhongxm/Library/Developer/Xcode/UserData/.syn_tools/.inner_tools
+The following paths are ignored by one of your .gitignore files:
+IB Support
+IDEDocumentationWindow.xcuserstate
+IDEPreferencesController.xcuserstate
+Previews
+hint: Use -f if you really want to add them.
+hint: Turn this message off by running
+hint: "git config advice.addIgnoredFile false"
+[master a38c2ef] 自动同步(push)[at 2022-07-09 21:30:01]
+ 4 files changed, 417 insertions(+), 3 deletions(-)
+ rewrite IDEEditorInteractivityHistory (67%)
+To github.com:samingzhong/xcode-setting.git
+ + b7d4d4b...a38c2ef master -> master (forced update)
+--------------- ⏫⏫⏫⏫⏫ push 执行结束时间[2022-07-09 21:30:14] ⏫⏫⏫⏫⏫ ----------------
+
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   ../syn.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
