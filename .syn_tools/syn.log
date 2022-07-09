@@ -725,3 +725,7 @@ fetch-pack: unexpected disconnect while reading sideband packet
 fatal: protocol error: bad pack header
 --------------- 🔻🔻🔻🔻 pull 执行结束时间[2022-07-09 11:23:06] 🔻🔻🔻🔻 ----------------
 
+shellDir:/Users/zhongxm/Library/Developer/Xcode/UserData/.syn_tools
+pwd:/Users/zhongxm
+--------------- ⏫⏫⏫⏫⏫ push 开始执行[2022-07-09 21:30:01] ⏫⏫⏫⏫⏫ ----------------
+当前目录:/Users/zhongxm/Library/Developer/Xcode/UserData/.syn_tools/.inner_tools
