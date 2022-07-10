@@ -778,3 +778,19 @@ Changes not staged for commit:
 	modified:   ../syn.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
+The following paths are ignored by one of your .gitignore files:
+IB Support
+IDEDocumentationWindow.xcuserstate
+IDEPreferencesController.xcuserstate
+Previews
+hint: Use -f if you really want to add them.
+hint: Turn this message off by running
+hint: "git config advice.addIgnoredFile false"
+[master 02697a7] 同步日志(push)[at 2022-07-10 00:00:05]
+ 1 file changed, 25 insertions(+)
+To github.com:samingzhong/xcode-setting.git
+   9ea2523..02697a7  master -> master
+shellDir:/Users/zhongxm/Library/Developer/Xcode/UserData/.syn_tools
+pwd:/Users/zhongxm
+--------------- ⏫⏫⏫⏫⏫ push 开始执行[2022-07-10 21:30:00] ⏫⏫⏫⏫⏫ ----------------
+当前目录:/Users/zhongxm/Library/Developer/Xcode/UserData/.syn_tools/.inner_tools
