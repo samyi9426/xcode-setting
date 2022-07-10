@@ -739,3 +739,9 @@ To github.com:samingzhong/xcode-setting.git
    4a84e34..38efaaa  master -> master
 --------------- ⏫⏫⏫⏫⏫ push 执行结束时间[2022-07-09 20:27:04] ⏫⏫⏫⏫⏫ ----------------
 
+---------------🔻🔻🔻🔻🔻 pull 开始执行[2022-07-10 09:00:01] 🔻🔻🔻🔻 ----------------
+client_loop: send disconnect: Broken pipe
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: protocol error: bad pack header
+--------------- 🔻🔻🔻🔻 pull 执行结束时间[2022-07-10 11:10:06] 🔻🔻🔻🔻 ----------------
+
