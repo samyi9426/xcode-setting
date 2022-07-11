@@ -82,3 +82,12 @@ Previews
 hint: Use -f if you really want to add them.
 hint: Turn this message off by running
 hint: "git config advice.addIgnoredFile false"
+fatal: No pathspec was given. Which files should I remove?
+[master 7d05eee] 自动同步(push)[at 2022-07-11 23:19:20]
+ 2 files changed, 15 insertions(+)
+ rewrite IDEEditorInteractivityHistory (68%)
+To github.com:samingzhong/xcode-setting.git
+   b727556..7d05eee  master -> master
+--------------- ⏫⏫⏫⏫⏫ 目标仓库：/Users/zhongxm/Library/Developer/Xcode/UserData ⏫⏫⏫⏫⏫ ----------------
+--------------- ⏫⏫⏫⏫⏫ push 执行结束时间[2022-07-11 23:19:25] ⏫⏫⏫⏫⏫ ----------------
+
