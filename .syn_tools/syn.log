@@ -745,3 +745,25 @@ fetch-pack: unexpected disconnect while reading sideband packet
 fatal: protocol error: bad pack header
 --------------- 🔻🔻🔻🔻 pull 执行结束时间[2022-07-10 11:10:06] 🔻🔻🔻🔻 ----------------
 
+---------------🔻🔻🔻🔻🔻 pull 开始执行[2022-07-11 16:01:30] 🔻🔻🔻🔻 ----------------
+From github.com:samingzhong/xcode-setting
+ + c980924...36883dc master     -> origin/master  (forced update)
+hint: Pulling without specifying how to reconcile divergent branches is
+hint: discouraged. You can squelch this message by running one of the following
+hint: commands sometime before your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+error: Your local changes to the following files would be overwritten by merge:
+	.syn_tools/syn.log
+	IDEEditorInteractivityHistory
+Please commit your changes or stash them before you merge.
+Aborting
+--------------- 🔻🔻🔻🔻 pull 执行结束时间[2022-07-11 16:01:35] 🔻🔻🔻🔻 ----------------
+
