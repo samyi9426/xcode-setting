@@ -509,6 +509,7 @@ To github.com:samingzhong/xcode-setting.git
 --------------- ⏫⏫⏫⏫⏫ 目标仓库：/Users/samingzhong/Library/Developer/Xcode/UserData ⏫⏫⏫⏫⏫ ----------------
 --------------- ⏫⏫⏫⏫⏫ push 执行结束时间[2022-07-13 20:50:34] ⏫⏫⏫⏫⏫ ----------------
 
+<<<<<<< Updated upstream
 =======
 >>>>>>> Stashed changes
 running script .inner_tools/git_push...
@@ -523,10 +524,23 @@ IB Support
 IDEDocumentationWindow.xcuserstate
 IDEPreferencesController.xcuserstate
 Previews
+=======
+running script .inner_tools/git_pull...
+$0:.inner_tools/git_pull
+$1:/Users/samingzhong/Library/Developer/Xcode/UserData
+exit_if_target_dir_not_exit...
+---------------🔻🔻🔻🔻🔻 目标仓库：/Users/samingzhong/Library/Developer/Xcode/UserData 🔻🔻🔻🔻 ----------------
+---------------🔻🔻🔻🔻🔻 pull 开始执行[2022-07-14 09:00:18] 🔻🔻🔻🔻 ----------------
+git stash push...
+The following paths are ignored by one of your .gitignore files:
+IB Support
+IDEPreferencesController.xcuserstate
+>>>>>>> Stashed changes
 hint: Use -f if you really want to add them.
 hint: Turn this message off by running
 hint: "git config advice.addIgnoredFile false"
 fatal: No pathspec was given. Which files should I remove?
+<<<<<<< Updated upstream
 [master b6e3f6c] 自动同步(push)[at 2022-07-14 01:30:18]
  4 files changed, 384 insertions(+), 3 deletions(-)
  rewrite IDEEditorInteractivityHistory (93%)
@@ -535,3 +549,18 @@ To github.com:samingzhong/xcode-setting.git
 --------------- ⏫⏫⏫⏫⏫ 目标仓库：/Users/zhongxm/Library/Developer/Xcode/UserData ⏫⏫⏫⏫⏫ ----------------
 --------------- ⏫⏫⏫⏫⏫ push 执行结束时间[2022-07-14 01:30:23] ⏫⏫⏫⏫⏫ ----------------
 
+=======
+>>>>>>> Stashed changes
+running script .inner_tools/git_push...
+$0:.inner_tools/git_push
+$1:/Users/samingzhong/Library/Developer/Xcode/UserData
+exit_if_target_dir_not_exit...
+--------------- ⏫⏫⏫⏫⏫ 目标仓库：/Users/samingzhong/Library/Developer/Xcode/UserData ⏫⏫⏫⏫⏫ ----------------
+--------------- ⏫⏫⏫⏫⏫ push 开始执行[2022-07-14 20:50:18] ⏫⏫⏫⏫⏫ ----------------
+当前目录:/Users/samingzhong/Library/Developer/Xcode/UserData
+The following paths are ignored by one of your .gitignore files:
+IB Support
+IDEPreferencesController.xcuserstate
+hint: Use -f if you really want to add them.
+hint: Turn this message off by running
+hint: "git config advice.addIgnoredFile false"
