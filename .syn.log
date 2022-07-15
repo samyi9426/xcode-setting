@@ -643,3 +643,12 @@ IDEPreferencesController.xcuserstate
 hint: Use -f if you really want to add them.
 hint: Turn this message off by running
 hint: "git config advice.addIgnoredFile false"
+fatal: No pathspec was given. Which files should I remove?
+[master e8f0520] 自动同步(push)[at 2022-07-15 20:50:17]
+ 2 files changed, 13 insertions(+)
+ rewrite IDEEditorInteractivityHistory (95%)
+To github.com:samingzhong/xcode-setting.git
+   bbb1d9a..e8f0520  master -> master
+--------------- ⏫⏫⏫⏫⏫ 目标仓库：/Users/samingzhong/Library/Developer/Xcode/UserData ⏫⏫⏫⏫⏫ ----------------
+--------------- ⏫⏫⏫⏫⏫ push 执行结束时间[2022-07-15 20:50:21] ⏫⏫⏫⏫⏫ ----------------
+
