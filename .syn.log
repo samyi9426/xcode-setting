@@ -1358,6 +1358,7 @@ To github.com:samingzhong/xcode-setting.git
 <<<<<<< Updated upstream
 =======
 >>>>>>> Stashed changes
+<<<<<<< HEAD
 =======
 running script .inner_tools/git_pull...
 $0:.inner_tools/git_pull
@@ -1406,14 +1407,37 @@ exit_if_target_dir_not_exit...
 The following paths are ignored by one of your .gitignore files:
 IB Support
 IDEPreferencesController.xcuserstate
+=======
+running script .inner_tools/git_push...
+$0:.inner_tools/git_push
+$1:/Users/zhongxm/Library/Developer/Xcode/UserData
+exit_if_target_dir_not_exit...
+--------------- ⏫⏫⏫⏫⏫ 目标仓库：/Users/zhongxm/Library/Developer/Xcode/UserData ⏫⏫⏫⏫⏫ ----------------
+--------------- ⏫⏫⏫⏫⏫ push 开始执行[2022-08-01 00:30:23] ⏫⏫⏫⏫⏫ ----------------
+当前目录:/Users/zhongxm/Library/Developer/Xcode/UserData
+The following paths are ignored by one of your .gitignore files:
+IB Support
+IDEDocumentationWindow.xcuserstate
+IDEPreferencesController.xcuserstate
+Previews
+>>>>>>> ffa9b933af71da6b2c7c26f044a2dd5d2fa74e4d
 hint: Use -f if you really want to add them.
 hint: Turn this message off by running
 hint: "git config advice.addIgnoredFile false"
 fatal: No pathspec was given. Which files should I remove?
+<<<<<<< HEAD
 [master 24e1b26] 自动同步(push)[at 2022-07-31 20:58:47]
  1 file changed, 13 insertions(+)
 To github.com:samingzhong/xcode-setting.git
    30f6175..24e1b26  master -> master
 --------------- ⏫⏫⏫⏫⏫ 目标仓库：/Users/samingzhong/Library/Developer/Xcode/UserData ⏫⏫⏫⏫⏫ ----------------
 --------------- ⏫⏫⏫⏫⏫ push 执行结束时间[2022-07-31 20:58:51] ⏫⏫⏫⏫⏫ ----------------
+=======
+[master 5fda7fc] 自动同步(push)[at 2022-08-01 00:30:24]
+ 1 file changed, 15 insertions(+)
+To github.com:samingzhong/xcode-setting.git
+ + 7102cb7...5fda7fc master -> master (forced update)
+--------------- ⏫⏫⏫⏫⏫ 目标仓库：/Users/zhongxm/Library/Developer/Xcode/UserData ⏫⏫⏫⏫⏫ ----------------
+--------------- ⏫⏫⏫⏫⏫ push 执行结束时间[2022-08-01 00:31:07] ⏫⏫⏫⏫⏫ ----------------
+>>>>>>> ffa9b933af71da6b2c7c26f044a2dd5d2fa74e4d
 
