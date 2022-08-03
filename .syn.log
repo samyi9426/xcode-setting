@@ -1540,6 +1540,7 @@ To github.com:samingzhong/xcode-setting.git
 --------------- ⏫⏫⏫⏫⏫ 目标仓库：/Users/samingzhong/Library/Developer/Xcode/UserData ⏫⏫⏫⏫⏫ ----------------
 --------------- ⏫⏫⏫⏫⏫ push 执行结束时间[2022-08-02 20:57:01] ⏫⏫⏫⏫⏫ ----------------
 
+<<<<<<< Updated upstream
 =======
 >>>>>>> Stashed changes
 running script .inner_tools/git_push...
@@ -1554,10 +1555,23 @@ IB Support
 IDEDocumentationWindow.xcuserstate
 IDEPreferencesController.xcuserstate
 Previews
+=======
+running script .inner_tools/git_pull...
+$0:.inner_tools/git_pull
+$1:/Users/samingzhong/Library/Developer/Xcode/UserData
+exit_if_target_dir_not_exit...
+---------------🔻🔻🔻🔻🔻 目标仓库：/Users/samingzhong/Library/Developer/Xcode/UserData 🔻🔻🔻🔻 ----------------
+---------------🔻🔻🔻🔻🔻 pull 开始执行[2022-08-03 11:27:32] 🔻🔻🔻🔻 ----------------
+git stash push...
+The following paths are ignored by one of your .gitignore files:
+IB Support
+IDEPreferencesController.xcuserstate
+>>>>>>> Stashed changes
 hint: Use -f if you really want to add them.
 hint: Turn this message off by running
 hint: "git config advice.addIgnoredFile false"
 fatal: No pathspec was given. Which files should I remove?
+<<<<<<< Updated upstream
 [master a8d164d] 自动同步(push)[at 2022-08-03 00:31:37]
  1 file changed, 15 insertions(+)
 To github.com:samingzhong/xcode-setting.git
@@ -1565,3 +1579,5 @@ To github.com:samingzhong/xcode-setting.git
 --------------- ⏫⏫⏫⏫⏫ 目标仓库：/Users/zhongxm/Library/Developer/Xcode/UserData ⏫⏫⏫⏫⏫ ----------------
 --------------- ⏫⏫⏫⏫⏫ push 执行结束时间[2022-08-03 00:31:43] ⏫⏫⏫⏫⏫ ----------------
 
+=======
+>>>>>>> Stashed changes
