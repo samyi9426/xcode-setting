@@ -2132,6 +2132,7 @@ To github.com:samingzhong/xcode-setting.git
 --------------- ⏫⏫⏫⏫⏫ 目标仓库：/Users/zhongxm/Library/Developer/Xcode/UserData ⏫⏫⏫⏫⏫ ----------------
 --------------- ⏫⏫⏫⏫⏫ push 执行结束时间[2022-08-12 00:31:41] ⏫⏫⏫⏫⏫ ----------------
 
+<<<<<<< HEAD
 running script .inner_tools/git_push...
 $0:.inner_tools/git_push
 $1:/Users/zhongxm/Library/Developer/Xcode/UserData
@@ -2144,10 +2145,37 @@ IB Support
 IDEDocumentationWindow.xcuserstate
 IDEPreferencesController.xcuserstate
 Previews
+=======
+running script .inner_tools/git_pull...
+$0:.inner_tools/git_pull
+$1:/Users/samingzhong/Library/Developer/Xcode/UserData
+exit_if_target_dir_not_exit...
+---------------🔻🔻🔻🔻🔻 目标仓库：/Users/samingzhong/Library/Developer/Xcode/UserData 🔻🔻🔻🔻 ----------------
+---------------🔻🔻🔻🔻🔻 pull 开始执行[2022-08-12 11:23:19] 🔻🔻🔻🔻 ----------------
+git stash push...
+The following paths are ignored by one of your .gitignore files:
+IB Support
+IDEPreferencesController.xcuserstate
 hint: Use -f if you really want to add them.
 hint: Turn this message off by running
 hint: "git config advice.addIgnoredFile false"
 fatal: No pathspec was given. Which files should I remove?
+running script .inner_tools/git_push...
+$0:.inner_tools/git_push
+$1:/Users/samingzhong/Library/Developer/Xcode/UserData
+exit_if_target_dir_not_exit...
+--------------- ⏫⏫⏫⏫⏫ 目标仓库：/Users/samingzhong/Library/Developer/Xcode/UserData ⏫⏫⏫⏫⏫ ----------------
+--------------- ⏫⏫⏫⏫⏫ push 开始执行[2022-08-12 20:50:11] ⏫⏫⏫⏫⏫ ----------------
+当前目录:/Users/samingzhong/Library/Developer/Xcode/UserData
+The following paths are ignored by one of your .gitignore files:
+IB Support
+IDEPreferencesController.xcuserstate
+>>>>>>> a2f90059cb0350a09ec00bbef497eebde886a556
+hint: Use -f if you really want to add them.
+hint: Turn this message off by running
+hint: "git config advice.addIgnoredFile false"
+fatal: No pathspec was given. Which files should I remove?
+<<<<<<< HEAD
 [master 77b94ba] 自动同步(push)[at 2022-08-13 00:32:06]
  1 file changed, 15 insertions(+)
 client_loop: send disconnect: Broken pipe
@@ -2155,4 +2183,13 @@ send-pack: unexpected disconnect while reading sideband packet
 fatal: the remote end hung up unexpectedly
 --------------- ⏫⏫⏫⏫⏫ 目标仓库：/Users/zhongxm/Library/Developer/Xcode/UserData ⏫⏫⏫⏫⏫ ----------------
 --------------- ⏫⏫⏫⏫⏫ push 执行结束时间[2022-08-13 00:33:02] ⏫⏫⏫⏫⏫ ----------------
+=======
+[master 88ca2a4] 自动同步(push)[at 2022-08-12 20:50:11]
+ 2 files changed, 13 insertions(+)
+ rewrite IDEEditorInteractivityHistory (88%)
+To github.com:samingzhong/xcode-setting.git
+   1ccc17b..88ca2a4  master -> master
+--------------- ⏫⏫⏫⏫⏫ 目标仓库：/Users/samingzhong/Library/Developer/Xcode/UserData ⏫⏫⏫⏫⏫ ----------------
+--------------- ⏫⏫⏫⏫⏫ push 执行结束时间[2022-08-12 20:50:16] ⏫⏫⏫⏫⏫ ----------------
+>>>>>>> a2f90059cb0350a09ec00bbef497eebde886a556
 
