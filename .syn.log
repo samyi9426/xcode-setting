@@ -2252,3 +2252,16 @@ To github.com:samingzhong/xcode-setting.git
 --------------- ⏫⏫⏫⏫⏫ push 执行结束时间[2022-08-14 00:30:44] ⏫⏫⏫⏫⏫ ----------------
 >>>>>>> eb638ade003f7075dfb6de4ea11bfc3a6682356b
 
+running script .inner_tools/git_push...
+$0:.inner_tools/git_push
+$1:/Users/samingzhong/Library/Developer/Xcode/UserData
+exit_if_target_dir_not_exit...
+--------------- ⏫⏫⏫⏫⏫ 目标仓库：/Users/samingzhong/Library/Developer/Xcode/UserData ⏫⏫⏫⏫⏫ ----------------
+--------------- ⏫⏫⏫⏫⏫ push 开始执行[2022-08-14 20:50:11] ⏫⏫⏫⏫⏫ ----------------
+当前目录:/Users/samingzhong/Library/Developer/Xcode/UserData
+The following paths are ignored by one of your .gitignore files:
+IB Support
+IDEPreferencesController.xcuserstate
+hint: Use -f if you really want to add them.
+hint: Turn this message off by running
+hint: "git config advice.addIgnoredFile false"
