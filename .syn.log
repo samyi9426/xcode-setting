@@ -2231,3 +2231,11 @@ Previews
 hint: Use -f if you really want to add them.
 hint: Turn this message off by running
 hint: "git config advice.addIgnoredFile false"
+fatal: No pathspec was given. Which files should I remove?
+[master d4207cb] 自动同步(push)[at 2022-08-15 00:30:33]
+ 1 file changed, 15 insertions(+)
+To github.com:samingzhong/xcode-setting.git
+ + 9f9c0f9...d4207cb master -> master (forced update)
+--------------- ⏫⏫⏫⏫⏫ 目标仓库：/Users/zhongxm/Library/Developer/Xcode/UserData ⏫⏫⏫⏫⏫ ----------------
+--------------- ⏫⏫⏫⏫⏫ push 执行结束时间[2022-08-15 00:36:31] ⏫⏫⏫⏫⏫ ----------------
+
