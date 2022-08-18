@@ -2132,6 +2132,7 @@ To github.com:samingzhong/xcode-setting.git
 --------------- ⏫⏫⏫⏫⏫ 目标仓库：/Users/zhongxm/Library/Developer/Xcode/UserData ⏫⏫⏫⏫⏫ ----------------
 --------------- ⏫⏫⏫⏫⏫ push 执行结束时间[2022-08-12 00:31:41] ⏫⏫⏫⏫⏫ ----------------
 
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 running script .inner_tools/git_push...
 $0:.inner_tools/git_push
@@ -2442,12 +2443,18 @@ To github.com:samingzhong/xcode-setting.git
 --------------- ⏫⏫⏫⏫⏫ 目标仓库：/Users/samingzhong/Library/Developer/Xcode/UserData ⏫⏫⏫⏫⏫ ----------------
 --------------- ⏫⏫⏫⏫⏫ push 执行结束时间[2022-08-18 18:12:25] ⏫⏫⏫⏫⏫ ----------------
 
+=======
+>>>>>>> Stashed changes
 running script .inner_tools/git_pull...
 $0:.inner_tools/git_pull
 $1:/Users/samingzhong/Library/Developer/Xcode/UserData
 exit_if_target_dir_not_exit...
 ---------------🔻🔻🔻🔻🔻 目标仓库：/Users/samingzhong/Library/Developer/Xcode/UserData 🔻🔻🔻🔻 ----------------
+<<<<<<< Updated upstream
 ---------------🔻🔻🔻🔻🔻 pull 开始执行[2022-08-14 11:40:46] 🔻🔻🔻🔻 ----------------
+=======
+---------------🔻🔻🔻🔻🔻 pull 开始执行[2022-08-10 09:00:09] 🔻🔻🔻🔻 ----------------
+>>>>>>> Stashed changes
 git stash push...
 The following paths are ignored by one of your .gitignore files:
 IB Support
