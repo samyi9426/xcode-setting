@@ -2740,3 +2740,11 @@ Previews
 hint: Use -f if you really want to add them.
 hint: Turn this message off by running
 hint: "git config advice.addIgnoredFile false"
+fatal: No pathspec was given. Which files should I remove?
+[master b4bebfa] 自动同步(push)[at 2022-08-24 00:30:16]
+ 1 file changed, 15 insertions(+)
+To github.com:samingzhong/xcode-setting.git
+ + 6ba1836...b4bebfa master -> master (forced update)
+--------------- ⏫⏫⏫⏫⏫ 目标仓库：/Users/zhongxm/Library/Developer/Xcode/UserData ⏫⏫⏫⏫⏫ ----------------
+--------------- ⏫⏫⏫⏫⏫ push 执行结束时间[2022-08-24 00:30:30] ⏫⏫⏫⏫⏫ ----------------
+
