@@ -800,7 +800,7 @@
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Keyboard Shortcut</key>
-				<string>@d</string>
+				<string>^d</string>
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Parent Title</key>
@@ -1899,6 +1899,18 @@
 				<string>Refresh Canvas</string>
 			</dict>
 		</array>
+		<key>Version</key>
+		<integer>3</integer>
+	</dict>
+	<key>Text Key Bindings</key>
+	<dict>
+		<key>Key Bindings</key>
+		<dict>
+			<key></key>
+			<array>
+				<string>deleteForward:</string>
+			</array>
+		</dict>
 		<key>Version</key>
 		<integer>3</integer>
 	</dict>
