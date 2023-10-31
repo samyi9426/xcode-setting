@@ -274,6 +274,26 @@
 				<key>Alternate</key>
 				<string>NO</string>
 				<key>CommandID</key>
+				<string>IDESourceEditorExtension:com.intii.CopilotForXcode.EditorExtension,IDESourceEditorExtensionCommand:com.intii.CopilotForXcode.EditorExtensionCopilot.AcceptPromptToCodeCommand</string>
+				<key>Group</key>
+				<string>Editor Menu for Source Code</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Copilot</string>
+				<key>Title</key>
+				<string>Accept Prompt to Code</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>_invokeSourceEditorExtensionCommand:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
 				<string>IDESourceEditorExtension:com.intii.CopilotForXcode.EditorExtension,IDESourceEditorExtensionCommand:com.intii.CopilotForXcode.EditorExtensionCopilot.AcceptSuggestionCommand</string>
 				<key>Group</key>
 				<string>Editor Menu for Source Code</string>
@@ -447,6 +467,26 @@
 				<string>Copilot</string>
 				<key>Title</key>
 				<string>Reject Suggestion</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>_invokeSourceEditorExtensionCommand:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>IDESourceEditorExtension:com.intii.CopilotForXcode.EditorExtension,IDESourceEditorExtensionCommand:com.intii.CopilotForXcode.EditorExtensionCopilot.SeparatorCommand</string>
+				<key>Group</key>
+				<string>Editor Menu for Source Code</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Copilot</string>
+				<key>Title</key>
+				<string>------</string>
 			</dict>
 			<dict>
 				<key>Action</key>
@@ -1926,46 +1966,6 @@
 			</dict>
 			<dict>
 				<key>Action</key>
-				<string>selectStructure:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandGroupID</key>
-				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.SelectStructure</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.SelectStructure</string>
-				<key>Group</key>
-				<string>Editor Menu for Playground</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEPlaygroundEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Show Code Actions</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>selectStructure:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandGroupID</key>
-				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.SelectStructure</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.SelectStructure</string>
-				<key>Group</key>
-				<string>Editor Menu for Source Code</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Show Code Actions</string>
-			</dict>
-			<dict>
-				<key>Action</key>
 				<string>shiftLeft:</string>
 				<key>Alternate</key>
 				<string>NO</string>
@@ -2202,28 +2202,6 @@
 			</dict>
 			<dict>
 				<key>Action</key>
-				<string>alignEdgeLeft:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandGroupID</key>
-				<string>Xcode.InterfaceBuilderKit.CmdDefinition.AlignLeftEdges</string>
-				<key>CommandID</key>
-				<string>Xcode.InterfaceBuilderKit.CmdDefinition.AlignLeftEdges</string>
-				<key>Group</key>
-				<string>Editor Menu for Interface Builder Cocoa Preview</string>
-				<key>GroupID</key>
-				<string>Xcode.InterfaceBuilderKit.DocumentEditorMenu</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Align</string>
-				<key>Title</key>
-				<string>Left Edges</string>
-			</dict>
-			<dict>
-				<key>Action</key>
 				<string>alignEdgeRight:</string>
 				<key>Alternate</key>
 				<string>NO</string>
@@ -2233,28 +2211,6 @@
 				<string>Xcode.InterfaceBuilderKit.CmdDefinition.AlignRightEdges</string>
 				<key>Group</key>
 				<string>Editor Menu for Interface Builder - Storyboard</string>
-				<key>GroupID</key>
-				<string>Xcode.InterfaceBuilderKit.DocumentEditorMenu</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Align</string>
-				<key>Title</key>
-				<string>Right Edges</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>alignEdgeRight:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandGroupID</key>
-				<string>Xcode.InterfaceBuilderKit.CmdDefinition.AlignRightEdges</string>
-				<key>CommandID</key>
-				<string>Xcode.InterfaceBuilderKit.CmdDefinition.AlignRightEdges</string>
-				<key>Group</key>
-				<string>Editor Menu for Interface Builder Cocoa Preview</string>
 				<key>GroupID</key>
 				<string>Xcode.InterfaceBuilderKit.DocumentEditorMenu</string>
 				<key>GroupedAlternate</key>
