@@ -630,6 +630,26 @@
 			</dict>
 			<dict>
 				<key>Action</key>
+				<string>copyGroupWithVisibleMetadata:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>Xcode.ConsoleKit.CmdDefinition.CopyGroupWithVisibleMetadata</string>
+				<key>Group</key>
+				<string>Debug Menu</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.Main</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Console</string>
+				<key>Title</key>
+				<string>Copy Row With Visible Metadata</string>
+			</dict>
+			<dict>
+				<key>Action</key>
 				<string>ReleaseGPUFrame:</string>
 				<key>Alternate</key>
 				<string>NO</string>
