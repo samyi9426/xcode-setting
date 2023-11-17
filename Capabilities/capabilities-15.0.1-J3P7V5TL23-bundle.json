@@ -2,7 +2,7 @@
   "data" : [
     {
       "attributes" : {
-        "description" : "The AutoFill credential provider allows an app to provide user names and passwords for AutoFill in Safari and other apps, with user permission.",
+        "description" : "The MapKit framework provides an interface for embedding maps directly into your own windows and views of your app.",
         "distributionTypes" : [
           {
             "displayValue" : "Development",
@@ -12,8 +12,8 @@
         "enabledByDefault" : false,
         "entitlements" : [
           {
-            "name" : "AutoFill Credential Provider entitlement",
-            "profileKey" : "com.apple.developer.authentication-services.autofill-credential-provider",
+            "name" : "Maps",
+            "profileKey" : "com.apple.developer.maps",
             "values" : [
               {
                 "inference" : "constant",
@@ -23,12 +23,80 @@
             "valueType" : "BOOLEAN"
           }
         ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/c87487dswl.svg",
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-maps.svg",
         "isPublic" : true,
-        "name" : "AutoFill Credential Provider",
-        "sfSymbolIcon" : "rectangle.and.pencil.and.ellipsis",
+        "name" : "Maps",
+        "sfSymbolIcon" : "map",
         "supportedProductTypes" : [
           "com.apple.product-type.application",
+          "com.apple.product-type.xpc-service"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "MAC_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM",
+          "XCODE_FREE_PROGRAM"
+        ]
+      },
+      "id" : "MAPS",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "HealthKit allows an app to read and write health and activity user data that appears in the Health app.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "HealthKit",
+            "profileKey" : "com.apple.developer.healthkit",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          },
+          {
+            "name" : "HealthKit - Developer Access",
+            "profileKey" : "com.apple.developer.healthkit.access",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "health-records"
+              }
+            ],
+            "valueType" : "ARRAY"
+          },
+          {
+            "name" : "HealthKit Background Delivery",
+            "profileKey" : "com.apple.developer.healthkit.background-delivery",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-healthkit.svg",
+        "isPublic" : true,
+        "name" : "HealthKit",
+        "sfSymbolIcon" : "health",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application",
+          "com.apple.product-type.watchkit2-extension",
           "com.apple.product-type.xpc-service"
         ],
         "supportedSDKs" : [
@@ -36,7 +104,54 @@
             "name" : "IOS"
           },
           {
-            "name" : "MAC_OS"
+            "name" : "VISION_OS"
+          },
+          {
+            "name" : "WATCH_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM",
+          "UNIVERSITY_PROGRAM",
+          "XCODE_FREE_PROGRAM"
+        ]
+      },
+      "id" : "HEALTHKIT",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "Enables an app to exceed the default app memory limit on supported devices.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "Increased Memory Limit entitlement",
+            "profileKey" : "com.apple.developer.kernel.increased-memory-limit",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-extenvaddr.svg",
+        "isPublic" : true,
+        "name" : "Increased Memory Limit",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
           },
           {
             "name" : "VISION_OS"
@@ -49,7 +164,62 @@
           "XCODE_FREE_PROGRAM"
         ]
       },
-      "id" : "AUTOFILL_CREDENTIAL_PROVIDER",
+      "id" : "INCREASED_MEMORY_LIMIT",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "HomeKit allows users to manage connected accessories in their home using an app.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "HomeKit",
+            "profileKey" : "com.apple.developer.homekit",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-homekit.svg",
+        "isPublic" : true,
+        "name" : "HomeKit",
+        "sfSymbolIcon" : "homekit",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application",
+          "com.apple.product-type.xpc-service"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "TV_OS"
+          },
+          {
+            "name" : "VISION_OS"
+          },
+          {
+            "name" : "WATCH_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM",
+          "UNIVERSITY_PROGRAM",
+          "XCODE_FREE_PROGRAM"
+        ]
+      },
+      "id" : "HOMEKIT",
       "type" : "capabilities"
     },
     {
@@ -155,7 +325,7 @@
     },
     {
       "attributes" : {
-        "description" : "HealthKit allows an app to read and write health and activity user data that appears in the Health app.",
+        "description" : "The AutoFill credential provider allows an app to provide user names and passwords for AutoFill in Safari and other apps, with user permission.",
         "distributionTypes" : [
           {
             "displayValue" : "Development",
@@ -165,30 +335,8 @@
         "enabledByDefault" : false,
         "entitlements" : [
           {
-            "name" : "HealthKit",
-            "profileKey" : "com.apple.developer.healthkit",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          },
-          {
-            "name" : "HealthKit - Developer Access",
-            "profileKey" : "com.apple.developer.healthkit.access",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "health-records"
-              }
-            ],
-            "valueType" : "ARRAY"
-          },
-          {
-            "name" : "HealthKit Background Delivery",
-            "profileKey" : "com.apple.developer.healthkit.background-delivery",
+            "name" : "AutoFill Credential Provider entitlement",
+            "profileKey" : "com.apple.developer.authentication-services.autofill-credential-provider",
             "values" : [
               {
                 "inference" : "constant",
@@ -198,13 +346,12 @@
             "valueType" : "BOOLEAN"
           }
         ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-healthkit.svg",
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/c87487dswl.svg",
         "isPublic" : true,
-        "name" : "HealthKit",
-        "sfSymbolIcon" : "health",
+        "name" : "AutoFill Credential Provider",
+        "sfSymbolIcon" : "rectangle.and.pencil.and.ellipsis",
         "supportedProductTypes" : [
           "com.apple.product-type.application",
-          "com.apple.product-type.watchkit2-extension",
           "com.apple.product-type.xpc-service"
         ],
         "supportedSDKs" : [
@@ -212,10 +359,10 @@
             "name" : "IOS"
           },
           {
-            "name" : "VISION_OS"
+            "name" : "MAC_OS"
           },
           {
-            "name" : "WATCH_OS"
+            "name" : "VISION_OS"
           }
         ],
         "validTeamTypes" : [
@@ -225,7 +372,7 @@
           "XCODE_FREE_PROGRAM"
         ]
       },
-      "id" : "HEALTHKIT",
+      "id" : "AUTOFILL_CREDENTIAL_PROVIDER",
       "type" : "capabilities"
     },
     {
@@ -283,148 +430,6 @@
         ]
       },
       "id" : "APP_GROUPS",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "The MapKit framework provides an interface for embedding maps directly into your own windows and views of your app.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "Maps",
-            "profileKey" : "com.apple.developer.maps",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-maps.svg",
-        "isPublic" : true,
-        "name" : "Maps",
-        "sfSymbolIcon" : "map",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application",
-          "com.apple.product-type.xpc-service"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "MAC_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM",
-          "XCODE_FREE_PROGRAM"
-        ]
-      },
-      "id" : "MAPS",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "Capability to migrate apps to macOS platform",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "App Identifier Entitlement for Marzipan profiles",
-            "profileKey" : "com.apple.developer.associated-application-identifier",
-            "values" : [
-
-            ],
-            "valueType" : "ARRAY"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-macbookair.svg",
-        "isPublic" : true,
-        "name" : "Mac Catalyst",
-        "settings" : [
-          {
-            "key" : "MARZIPAN_APP_SETUP",
-            "options" : [
-              {
-                "enabledByDefault" : true,
-                "key" : "USE_IOS_APPID"
-              },
-              {
-                "enabledByDefault" : false,
-                "key" : "USE_MACOS_APPID"
-              }
-            ]
-          }
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "MAC_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM",
-          "XCODE_FREE_PROGRAM"
-        ]
-      },
-      "id" : "ENABLED_FOR_MAC",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "Inter-App Audio allows an app to send audio to and receive audio from other Inter-App Audio-enabled apps.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "Inter App Audio",
-            "profileKey" : "inter-app-audio",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-inter-app-audio.svg",
-        "isPublic" : true,
-        "name" : "Inter-App Audio",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application",
-          "com.apple.product-type.xpc-service"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM",
-          "UNIVERSITY_PROGRAM",
-          "XCODE_FREE_PROGRAM"
-        ]
-      },
-      "id" : "INTER_APP_AUDIO",
       "type" : "capabilities"
     },
     {
@@ -488,7 +493,7 @@
     },
     {
       "attributes" : {
-        "description" : "HomeKit allows users to manage connected accessories in their home using an app.",
+        "description" : "Inter-App Audio allows an app to send audio to and receive audio from other Inter-App Audio-enabled apps.",
         "distributionTypes" : [
           {
             "displayValue" : "Development",
@@ -498,8 +503,8 @@
         "enabledByDefault" : false,
         "entitlements" : [
           {
-            "name" : "HomeKit",
-            "profileKey" : "com.apple.developer.homekit",
+            "name" : "Inter App Audio",
+            "profileKey" : "inter-app-audio",
             "values" : [
               {
                 "inference" : "constant",
@@ -509,10 +514,9 @@
             "valueType" : "BOOLEAN"
           }
         ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-homekit.svg",
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-inter-app-audio.svg",
         "isPublic" : true,
-        "name" : "HomeKit",
-        "sfSymbolIcon" : "homekit",
+        "name" : "Inter-App Audio",
         "supportedProductTypes" : [
           "com.apple.product-type.application",
           "com.apple.product-type.xpc-service"
@@ -520,15 +524,6 @@
         "supportedSDKs" : [
           {
             "name" : "IOS"
-          },
-          {
-            "name" : "TV_OS"
-          },
-          {
-            "name" : "VISION_OS"
-          },
-          {
-            "name" : "WATCH_OS"
           }
         ],
         "validTeamTypes" : [
@@ -538,7 +533,7 @@
           "XCODE_FREE_PROGRAM"
         ]
       },
-      "id" : "HOMEKIT",
+      "id" : "INTER_APP_AUDIO",
       "type" : "capabilities"
     },
     {
@@ -589,7 +584,7 @@
     },
     {
       "attributes" : {
-        "description" : "Enables an app to exceed the default app memory limit on supported devices.",
+        "description" : "Capability to migrate apps to macOS platform",
         "distributionTypes" : [
           {
             "displayValue" : "Development",
@@ -599,39 +594,44 @@
         "enabledByDefault" : false,
         "entitlements" : [
           {
-            "name" : "Increased Memory Limit entitlement",
-            "profileKey" : "com.apple.developer.kernel.increased-memory-limit",
+            "name" : "App Identifier Entitlement for Marzipan profiles",
+            "profileKey" : "com.apple.developer.associated-application-identifier",
             "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
+
             ],
-            "valueType" : "BOOLEAN"
+            "valueType" : "ARRAY"
           }
         ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-extenvaddr.svg",
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-macbookair.svg",
         "isPublic" : true,
-        "name" : "Increased Memory Limit",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application"
+        "name" : "Mac Catalyst",
+        "settings" : [
+          {
+            "key" : "MARZIPAN_APP_SETUP",
+            "options" : [
+              {
+                "enabledByDefault" : true,
+                "key" : "USE_IOS_APPID"
+              },
+              {
+                "enabledByDefault" : false,
+                "key" : "USE_MACOS_APPID"
+              }
+            ]
+          }
         ],
         "supportedSDKs" : [
           {
-            "name" : "IOS"
-          },
-          {
-            "name" : "VISION_OS"
+            "name" : "MAC_OS"
           }
         ],
         "validTeamTypes" : [
           "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
           "APPLE_DEVELOPER_PROGRAM",
-          "UNIVERSITY_PROGRAM",
           "XCODE_FREE_PROGRAM"
         ]
       },
-      "id" : "INCREASED_MEMORY_LIMIT",
+      "id" : "ENABLED_FOR_MAC",
       "type" : "capabilities"
     }
   ]
