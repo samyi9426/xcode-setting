@@ -2,7 +2,7 @@
   "data" : [
     {
       "attributes" : {
-        "description" : "Capability to migrate apps to macOS platform",
+        "description" : "App groups gives multiple apps access to shared containers and allows certain additional communication between the apps.",
         "distributionTypes" : [
           {
             "displayValue" : "Development",
@@ -12,84 +12,30 @@
         "enabledByDefault" : false,
         "entitlements" : [
           {
-            "name" : "App Identifier Entitlement for Marzipan profiles",
-            "profileKey" : "com.apple.developer.associated-application-identifier",
+            "name" : "Application Groups entitlement",
+            "profileKey" : "com.apple.security.application-groups",
             "values" : [
-
+              {
+                "inference" : "constant",
+                "value" : "${applicationGroupBundle.specialIdentifier.identifier}"
+              }
             ],
             "valueType" : "ARRAY"
           }
         ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-macbookair.svg",
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-app-groups.svg",
         "isPublic" : true,
-        "name" : "Mac Catalyst",
-        "settings" : [
-          {
-            "key" : "MARZIPAN_APP_SETUP",
-            "options" : [
-              {
-                "enabledByDefault" : true,
-                "key" : "USE_IOS_APPID"
-              },
-              {
-                "enabledByDefault" : false,
-                "key" : "USE_MACOS_APPID"
-              }
-            ]
-          }
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "MAC_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM",
-          "XCODE_FREE_PROGRAM"
-        ]
-      },
-      "id" : "ENABLED_FOR_MAC",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "Game Center allows players to connect to the Game Center service, enabling them to interact with their friends, view leader boards, or play head to head in your game.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "macOS",
-            "profileKey" : "com.apple.developer.game-center",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-game-center.svg",
-        "isPublic" : true,
-        "name" : "Game Center",
-        "sfSymbolIcon" : "gamecenter",
+        "name" : "App Groups",
         "supportedProductTypes" : [
           "com.apple.product-type.application",
           "com.apple.product-type.application.on-demand-install-capable",
+          "com.apple.product-type.application.watchapp2",
+          "com.apple.product-type.system-extension",
           "com.apple.product-type.xpc-service"
         ],
         "supportedSDKs" : [
           {
             "name" : "IOS"
-          },
-          {
-            "name" : "MAC_OS"
           },
           {
             "name" : "TV_OS"
@@ -108,53 +54,7 @@
           "XCODE_FREE_PROGRAM"
         ]
       },
-      "id" : "GAME_CENTER",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "The Wireless Accessory Configuration capability allows an app to configure MFi Wi-Fi accessories.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "Wireless Accessory Configuration",
-            "profileKey" : "com.apple.external-accessory.wireless-configuration",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-wireless-accessory.svg",
-        "isPublic" : true,
-        "name" : "Wireless Accessory Configuration",
-        "sfSymbolIcon" : "wifi.circle",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application",
-          "com.apple.product-type.xpc-service"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM",
-          "UNIVERSITY_PROGRAM",
-          "XCODE_FREE_PROGRAM"
-        ]
-      },
-      "id" : "WIRELESS_ACCESSORY_CONFIGURATION",
+      "id" : "APP_GROUPS",
       "type" : "capabilities"
     },
     {
@@ -200,51 +100,6 @@
         ]
       },
       "id" : "INTER_APP_AUDIO",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "The MapKit framework provides an interface for embedding maps directly into your own windows and views of your app.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "Maps",
-            "profileKey" : "com.apple.developer.maps",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-maps.svg",
-        "isPublic" : true,
-        "name" : "Maps",
-        "sfSymbolIcon" : "map",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application",
-          "com.apple.product-type.xpc-service"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "MAC_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM",
-          "XCODE_FREE_PROGRAM"
-        ]
-      },
-      "id" : "MAPS",
       "type" : "capabilities"
     },
     {
@@ -324,7 +179,7 @@
     },
     {
       "attributes" : {
-        "description" : "Enables an app to exceed the default app memory limit on supported devices.",
+        "description" : "The MapKit framework provides an interface for embedding maps directly into your own windows and views of your app.",
         "distributionTypes" : [
           {
             "displayValue" : "Development",
@@ -334,8 +189,8 @@
         "enabledByDefault" : false,
         "entitlements" : [
           {
-            "name" : "Increased Memory Limit entitlement",
-            "profileKey" : "com.apple.developer.kernel.increased-memory-limit",
+            "name" : "Maps",
+            "profileKey" : "com.apple.developer.maps",
             "values" : [
               {
                 "inference" : "constant",
@@ -345,18 +200,62 @@
             "valueType" : "BOOLEAN"
           }
         ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-extenvaddr.svg",
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-maps.svg",
         "isPublic" : true,
-        "name" : "Increased Memory Limit",
+        "name" : "Maps",
+        "sfSymbolIcon" : "map",
         "supportedProductTypes" : [
-          "com.apple.product-type.application"
+          "com.apple.product-type.application",
+          "com.apple.product-type.xpc-service"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "MAC_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM",
+          "XCODE_FREE_PROGRAM"
+        ]
+      },
+      "id" : "MAPS",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "The Wireless Accessory Configuration capability allows an app to configure MFi Wi-Fi accessories.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "Wireless Accessory Configuration",
+            "profileKey" : "com.apple.external-accessory.wireless-configuration",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-wireless-accessory.svg",
+        "isPublic" : true,
+        "name" : "Wireless Accessory Configuration",
+        "sfSymbolIcon" : "wifi.circle",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application",
+          "com.apple.product-type.xpc-service"
         ],
         "supportedSDKs" : [
           {
             "name" : "IOS"
-          },
-          {
-            "name" : "VISION_OS"
           }
         ],
         "validTeamTypes" : [
@@ -366,7 +265,118 @@
           "XCODE_FREE_PROGRAM"
         ]
       },
-      "id" : "INCREASED_MEMORY_LIMIT",
+      "id" : "WIRELESS_ACCESSORY_CONFIGURATION",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "Game Center allows players to connect to the Game Center service, enabling them to interact with their friends, view leader boards, or play head to head in your game.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "macOS",
+            "profileKey" : "com.apple.developer.game-center",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-game-center.svg",
+        "isPublic" : true,
+        "name" : "Game Center",
+        "sfSymbolIcon" : "gamecenter",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application",
+          "com.apple.product-type.application.on-demand-install-capable",
+          "com.apple.product-type.xpc-service"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "MAC_OS"
+          },
+          {
+            "name" : "TV_OS"
+          },
+          {
+            "name" : "VISION_OS"
+          },
+          {
+            "name" : "WATCH_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM",
+          "UNIVERSITY_PROGRAM",
+          "XCODE_FREE_PROGRAM"
+        ]
+      },
+      "id" : "GAME_CENTER",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "Capability to migrate apps to macOS platform",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "App Identifier Entitlement for Marzipan profiles",
+            "profileKey" : "com.apple.developer.associated-application-identifier",
+            "values" : [
+
+            ],
+            "valueType" : "ARRAY"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-macbookair.svg",
+        "isPublic" : true,
+        "name" : "Mac Catalyst",
+        "settings" : [
+          {
+            "key" : "MARZIPAN_APP_SETUP",
+            "options" : [
+              {
+                "enabledByDefault" : true,
+                "key" : "USE_IOS_APPID"
+              },
+              {
+                "enabledByDefault" : false,
+                "key" : "USE_MACOS_APPID"
+              }
+            ]
+          }
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "MAC_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM",
+          "XCODE_FREE_PROGRAM"
+        ]
+      },
+      "id" : "ENABLED_FOR_MAC",
       "type" : "capabilities"
     },
     {
@@ -524,7 +534,7 @@
     },
     {
       "attributes" : {
-        "description" : "App groups gives multiple apps access to shared containers and allows certain additional communication between the apps.",
+        "description" : "Enables an app to exceed the default app memory limit on supported devices.",
         "distributionTypes" : [
           {
             "displayValue" : "Development",
@@ -534,39 +544,29 @@
         "enabledByDefault" : false,
         "entitlements" : [
           {
-            "name" : "Application Groups entitlement",
-            "profileKey" : "com.apple.security.application-groups",
+            "name" : "Increased Memory Limit entitlement",
+            "profileKey" : "com.apple.developer.kernel.increased-memory-limit",
             "values" : [
               {
                 "inference" : "constant",
-                "value" : "${applicationGroupBundle.specialIdentifier.identifier}"
+                "value" : "true"
               }
             ],
-            "valueType" : "ARRAY"
+            "valueType" : "BOOLEAN"
           }
         ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-app-groups.svg",
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-extenvaddr.svg",
         "isPublic" : true,
-        "name" : "App Groups",
+        "name" : "Increased Memory Limit",
         "supportedProductTypes" : [
-          "com.apple.product-type.application",
-          "com.apple.product-type.application.on-demand-install-capable",
-          "com.apple.product-type.application.watchapp2",
-          "com.apple.product-type.system-extension",
-          "com.apple.product-type.xpc-service"
+          "com.apple.product-type.application"
         ],
         "supportedSDKs" : [
           {
             "name" : "IOS"
           },
           {
-            "name" : "TV_OS"
-          },
-          {
             "name" : "VISION_OS"
-          },
-          {
-            "name" : "WATCH_OS"
           }
         ],
         "validTeamTypes" : [
@@ -576,7 +576,7 @@
           "XCODE_FREE_PROGRAM"
         ]
       },
-      "id" : "APP_GROUPS",
+      "id" : "INCREASED_MEMORY_LIMIT",
       "type" : "capabilities"
     },
     {
