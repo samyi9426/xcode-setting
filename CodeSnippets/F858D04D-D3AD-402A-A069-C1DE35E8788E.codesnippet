@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>tablemodel</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import Vapor
+import Fluent
+
+final class &lt;#User#&gt;: Model, Content {
+    static let schema = "users"
+    
+    @ID(key: .id)
+    var id: UUID?
+    
+    @Field(key: "username")
+    var username: String
+    
+    @Field(key: "passwordMD5")
+    var passwordMD5: String?
+    
+    init() { }
+}
+
+struct &lt;#User#&gt;Migration: Migration {
+    func prepare(on database: Database) -&gt; EventLoopFuture&lt;Void&gt; {
+        return database.schema("users")
+            .id()
+            .field("username", .string, .required)
+            .field("passwordMD5", .string)
+            .create()
+    }
+    
+    func revert(on database: Database) -&gt; EventLoopFuture&lt;Void&gt; {
+        return database.schema("users").delete()
+    }
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F858D04D-D3AD-402A-A069-C1DE35E8788E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>tablemodel</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

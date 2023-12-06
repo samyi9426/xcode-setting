@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>sbview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    lazy var vc: UIViewController = {
+        let view = UIStoryboard(name: "&lt;#Lab#&gt;", bundle: self.currentComponentBundle()).instantiateInitialViewController() ?? UIViewController()
+        guard let navi = view as? UINavigationController, let _ = navi.viewControllers.first as? &lt;#LabMainViewController#&gt; else {
+            return  UIViewController()
+        }
+        
+        return navi
+    }()
+    override func componentMainPage() -&gt; UIViewController {
+        vc
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>84B03EB2-3184-4539-85E8-8DE50EB26B09</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>加载组件中的storyboard的vc作为组件初始视图</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

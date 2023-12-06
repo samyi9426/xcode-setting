@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>requesttopb</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>guard let bodyData = req.body.data else { return req.eventLoop.makeFailedFuture(Abort(.badRequest)) }
+        let pbData = Data(buffer: bodyData)
+let reqPB = try? &lt;#GetAppUpdateInfoRequest#&gt;(serializedData: pbData)
+        guard let reqPB else { return req.eventLoop.makeFailedFuture(Abort(.badRequest)) }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>4E2B473A-7A5A-495A-85BB-4C03E95C9961</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>request body to pb message</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string></string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>
+final class &lt;#tableName#&gt;: Model {
+    static var schema: String = "&lt;#table name#&gt;"
+    
+    @ID(key: .id)
+    var id: UUID?
+    
+    @Field(key: "&lt;#columname#&gt;")
+    var "&lt;#userLimitCount#&gt;": &lt;# type #&gt;
+    
+    init() { }
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>4167902C-41F7-4CD8-A26C-6DF6D260E29A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>tablemodel</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

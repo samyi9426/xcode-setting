@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>pbtoresponse</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let responsePB = &lt;#UserInfo#&gt;.with { pb
+            // 设置信息字段
+        }
+        
+            // 将 Protocol Buffers 消息转换为 Data
+        let data = try responsePB.serializedData()
+        
+            // 创建 Vapor 的 Response
+        let response = Response()
+        response.body = Response.Body(data: data)
+        response.headers.contentType = .protobuf
+        
+        return req.eventLoop.makeSucceededFuture(response)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A319018E-860F-4B46-8A06-4B198B75B44F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>pb to response</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
