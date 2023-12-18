@@ -3,23 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dmaa</string>
+	<string>dgaa</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>DispatchQueue.main.asyncAfter(deadline: .now() +  &lt;# time #&gt;) {
+	<string>DispatchQueue.global().asyncAfter(deadline: &lt;#T##DispatchTime#&gt;) {
                 &lt;#code#&gt;
             }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F6F68FFE-C5DD-4C0E-AC55-BB562E911B90</string>
+	<string>025B0DA5-BCBB-4012-9CEF-FF4E997F4EB2</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>DispatchQueue.main.asyncAfter</string>
+	<string>DispatchQueue.global().asyncAfter</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
