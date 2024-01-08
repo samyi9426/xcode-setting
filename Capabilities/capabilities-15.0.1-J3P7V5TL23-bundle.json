@@ -2,7 +2,7 @@
   "data" : [
     {
       "attributes" : {
-        "description" : "Inter-App Audio allows an app to send audio to and receive audio from other Inter-App Audio-enabled apps.",
+        "description" : "Enables an app to exceed the default app memory limit on supported devices.",
         "distributionTypes" : [
           {
             "displayValue" : "Development",
@@ -12,8 +12,8 @@
         "enabledByDefault" : false,
         "entitlements" : [
           {
-            "name" : "Inter App Audio",
-            "profileKey" : "inter-app-audio",
+            "name" : "Increased Memory Limit entitlement",
+            "profileKey" : "com.apple.developer.kernel.increased-memory-limit",
             "values" : [
               {
                 "inference" : "constant",
@@ -23,16 +23,18 @@
             "valueType" : "BOOLEAN"
           }
         ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-inter-app-audio.svg",
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-extenvaddr.svg",
         "isPublic" : true,
-        "name" : "Inter-App Audio",
+        "name" : "Increased Memory Limit",
         "supportedProductTypes" : [
-          "com.apple.product-type.application",
-          "com.apple.product-type.xpc-service"
+          "com.apple.product-type.application"
         ],
         "supportedSDKs" : [
           {
             "name" : "IOS"
+          },
+          {
+            "name" : "VISION_OS"
           }
         ],
         "validTeamTypes" : [
@@ -42,12 +44,12 @@
           "XCODE_FREE_PROGRAM"
         ]
       },
-      "id" : "INTER_APP_AUDIO",
+      "id" : "INCREASED_MEMORY_LIMIT",
       "type" : "capabilities"
     },
     {
       "attributes" : {
-        "description" : "Game Center allows players to connect to the Game Center service, enabling them to interact with their friends, view leader boards, or play head to head in your game.",
+        "description" : "The MapKit framework provides an interface for embedding maps directly into your own windows and views of your app.",
         "distributionTypes" : [
           {
             "displayValue" : "Development",
@@ -57,8 +59,8 @@
         "enabledByDefault" : false,
         "entitlements" : [
           {
-            "name" : "macOS",
-            "profileKey" : "com.apple.developer.game-center",
+            "name" : "Maps",
+            "profileKey" : "com.apple.developer.maps",
             "values" : [
               {
                 "inference" : "constant",
@@ -68,40 +70,26 @@
             "valueType" : "BOOLEAN"
           }
         ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-game-center.svg",
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-maps.svg",
         "isPublic" : true,
-        "name" : "Game Center",
-        "sfSymbolIcon" : "gamecenter",
+        "name" : "Maps",
+        "sfSymbolIcon" : "map",
         "supportedProductTypes" : [
           "com.apple.product-type.application",
-          "com.apple.product-type.application.on-demand-install-capable",
           "com.apple.product-type.xpc-service"
         ],
         "supportedSDKs" : [
           {
-            "name" : "IOS"
-          },
-          {
             "name" : "MAC_OS"
-          },
-          {
-            "name" : "TV_OS"
-          },
-          {
-            "name" : "VISION_OS"
-          },
-          {
-            "name" : "WATCH_OS"
           }
         ],
         "validTeamTypes" : [
           "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
           "APPLE_DEVELOPER_PROGRAM",
-          "UNIVERSITY_PROGRAM",
           "XCODE_FREE_PROGRAM"
         ]
       },
-      "id" : "GAME_CENTER",
+      "id" : "MAPS",
       "type" : "capabilities"
     },
     {
@@ -253,58 +241,6 @@
     },
     {
       "attributes" : {
-        "description" : "The AutoFill credential provider allows an app to provide user names and passwords for AutoFill in Safari and other apps, with user permission.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "AutoFill Credential Provider entitlement",
-            "profileKey" : "com.apple.developer.authentication-services.autofill-credential-provider",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/c87487dswl.svg",
-        "isPublic" : true,
-        "name" : "AutoFill Credential Provider",
-        "sfSymbolIcon" : "rectangle.and.pencil.and.ellipsis",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application",
-          "com.apple.product-type.xpc-service"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          },
-          {
-            "name" : "MAC_OS"
-          },
-          {
-            "name" : "VISION_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM",
-          "UNIVERSITY_PROGRAM",
-          "XCODE_FREE_PROGRAM"
-        ]
-      },
-      "id" : "AUTOFILL_CREDENTIAL_PROVIDER",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
         "description" : "HealthKit allows an app to read and write health and activity user data that appears in the Health app.",
         "distributionTypes" : [
           {
@@ -380,98 +316,6 @@
     },
     {
       "attributes" : {
-        "description" : "Enables an app to exceed the default app memory limit on supported devices.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "Increased Memory Limit entitlement",
-            "profileKey" : "com.apple.developer.kernel.increased-memory-limit",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-extenvaddr.svg",
-        "isPublic" : true,
-        "name" : "Increased Memory Limit",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          },
-          {
-            "name" : "VISION_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM",
-          "UNIVERSITY_PROGRAM",
-          "XCODE_FREE_PROGRAM"
-        ]
-      },
-      "id" : "INCREASED_MEMORY_LIMIT",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "The MapKit framework provides an interface for embedding maps directly into your own windows and views of your app.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "Maps",
-            "profileKey" : "com.apple.developer.maps",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-maps.svg",
-        "isPublic" : true,
-        "name" : "Maps",
-        "sfSymbolIcon" : "map",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application",
-          "com.apple.product-type.xpc-service"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "MAC_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM",
-          "XCODE_FREE_PROGRAM"
-        ]
-      },
-      "id" : "MAPS",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
         "description" : "Capability to migrate apps to macOS platform",
         "distributionTypes" : [
           {
@@ -520,6 +364,165 @@
         ]
       },
       "id" : "ENABLED_FOR_MAC",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "HomeKit allows users to manage connected accessories in their home using an app.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "HomeKit",
+            "profileKey" : "com.apple.developer.homekit",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-homekit.svg",
+        "isPublic" : true,
+        "name" : "HomeKit",
+        "sfSymbolIcon" : "homekit",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application",
+          "com.apple.product-type.xpc-service"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "TV_OS"
+          },
+          {
+            "name" : "VISION_OS"
+          },
+          {
+            "name" : "WATCH_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM",
+          "UNIVERSITY_PROGRAM",
+          "XCODE_FREE_PROGRAM"
+        ]
+      },
+      "id" : "HOMEKIT",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "Inter-App Audio allows an app to send audio to and receive audio from other Inter-App Audio-enabled apps.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "Inter App Audio",
+            "profileKey" : "inter-app-audio",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-inter-app-audio.svg",
+        "isPublic" : true,
+        "name" : "Inter-App Audio",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application",
+          "com.apple.product-type.xpc-service"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM",
+          "UNIVERSITY_PROGRAM",
+          "XCODE_FREE_PROGRAM"
+        ]
+      },
+      "id" : "INTER_APP_AUDIO",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "Game Center allows players to connect to the Game Center service, enabling them to interact with their friends, view leader boards, or play head to head in your game.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "macOS",
+            "profileKey" : "com.apple.developer.game-center",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-game-center.svg",
+        "isPublic" : true,
+        "name" : "Game Center",
+        "sfSymbolIcon" : "gamecenter",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application",
+          "com.apple.product-type.application.on-demand-install-capable",
+          "com.apple.product-type.xpc-service"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "MAC_OS"
+          },
+          {
+            "name" : "TV_OS"
+          },
+          {
+            "name" : "VISION_OS"
+          },
+          {
+            "name" : "WATCH_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM",
+          "UNIVERSITY_PROGRAM",
+          "XCODE_FREE_PROGRAM"
+        ]
+      },
+      "id" : "GAME_CENTER",
       "type" : "capabilities"
     },
     {
@@ -581,7 +584,7 @@
     },
     {
       "attributes" : {
-        "description" : "HomeKit allows users to manage connected accessories in their home using an app.",
+        "description" : "The AutoFill credential provider allows an app to provide user names and passwords for AutoFill in Safari and other apps, with user permission.",
         "distributionTypes" : [
           {
             "displayValue" : "Development",
@@ -591,8 +594,8 @@
         "enabledByDefault" : false,
         "entitlements" : [
           {
-            "name" : "HomeKit",
-            "profileKey" : "com.apple.developer.homekit",
+            "name" : "AutoFill Credential Provider entitlement",
+            "profileKey" : "com.apple.developer.authentication-services.autofill-credential-provider",
             "values" : [
               {
                 "inference" : "constant",
@@ -602,10 +605,10 @@
             "valueType" : "BOOLEAN"
           }
         ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-homekit.svg",
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/c87487dswl.svg",
         "isPublic" : true,
-        "name" : "HomeKit",
-        "sfSymbolIcon" : "homekit",
+        "name" : "AutoFill Credential Provider",
+        "sfSymbolIcon" : "rectangle.and.pencil.and.ellipsis",
         "supportedProductTypes" : [
           "com.apple.product-type.application",
           "com.apple.product-type.xpc-service"
@@ -615,13 +618,10 @@
             "name" : "IOS"
           },
           {
-            "name" : "TV_OS"
+            "name" : "MAC_OS"
           },
           {
             "name" : "VISION_OS"
-          },
-          {
-            "name" : "WATCH_OS"
           }
         ],
         "validTeamTypes" : [
@@ -631,7 +631,7 @@
           "XCODE_FREE_PROGRAM"
         ]
       },
-      "id" : "HOMEKIT",
+      "id" : "AUTOFILL_CREDENTIAL_PROVIDER",
       "type" : "capabilities"
     }
   ]
