@@ -2,53 +2,6 @@
   "data" : [
     {
       "attributes" : {
-        "description" : "Enables an app to exceed the default app memory limit on supported devices.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "Increased Memory Limit entitlement",
-            "profileKey" : "com.apple.developer.kernel.increased-memory-limit",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-extenvaddr.svg",
-        "isPublic" : true,
-        "name" : "Increased Memory Limit",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          },
-          {
-            "name" : "VISION_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM",
-          "UNIVERSITY_PROGRAM",
-          "XCODE_FREE_PROGRAM"
-        ]
-      },
-      "id" : "INCREASED_MEMORY_LIMIT",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
         "description" : "The MapKit framework provides an interface for embedding maps directly into your own windows and views of your app.",
         "distributionTypes" : [
           {
@@ -136,6 +89,81 @@
         ]
       },
       "id" : "WIRELESS_ACCESSORY_CONFIGURATION",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "HealthKit allows an app to read and write health and activity user data that appears in the Health app.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "HealthKit",
+            "profileKey" : "com.apple.developer.healthkit",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          },
+          {
+            "name" : "HealthKit - Developer Access",
+            "profileKey" : "com.apple.developer.healthkit.access",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "health-records"
+              }
+            ],
+            "valueType" : "ARRAY"
+          },
+          {
+            "name" : "HealthKit Background Delivery",
+            "profileKey" : "com.apple.developer.healthkit.background-delivery",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-healthkit.svg",
+        "isPublic" : true,
+        "name" : "HealthKit",
+        "sfSymbolIcon" : "health",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application",
+          "com.apple.product-type.watchkit2-extension",
+          "com.apple.product-type.xpc-service"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "VISION_OS"
+          },
+          {
+            "name" : "WATCH_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM",
+          "UNIVERSITY_PROGRAM",
+          "XCODE_FREE_PROGRAM"
+        ]
+      },
+      "id" : "HEALTHKIT",
       "type" : "capabilities"
     },
     {
@@ -241,7 +269,7 @@
     },
     {
       "attributes" : {
-        "description" : "HealthKit allows an app to read and write health and activity user data that appears in the Health app.",
+        "description" : "The AutoFill credential provider allows an app to provide user names and passwords for AutoFill in Safari and other apps, with user permission.",
         "distributionTypes" : [
           {
             "displayValue" : "Development",
@@ -251,30 +279,8 @@
         "enabledByDefault" : false,
         "entitlements" : [
           {
-            "name" : "HealthKit",
-            "profileKey" : "com.apple.developer.healthkit",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          },
-          {
-            "name" : "HealthKit - Developer Access",
-            "profileKey" : "com.apple.developer.healthkit.access",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "health-records"
-              }
-            ],
-            "valueType" : "ARRAY"
-          },
-          {
-            "name" : "HealthKit Background Delivery",
-            "profileKey" : "com.apple.developer.healthkit.background-delivery",
+            "name" : "AutoFill Credential Provider entitlement",
+            "profileKey" : "com.apple.developer.authentication-services.autofill-credential-provider",
             "values" : [
               {
                 "inference" : "constant",
@@ -284,18 +290,76 @@
             "valueType" : "BOOLEAN"
           }
         ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-healthkit.svg",
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/c87487dswl.svg",
         "isPublic" : true,
-        "name" : "HealthKit",
-        "sfSymbolIcon" : "health",
+        "name" : "AutoFill Credential Provider",
+        "sfSymbolIcon" : "rectangle.and.pencil.and.ellipsis",
         "supportedProductTypes" : [
           "com.apple.product-type.application",
-          "com.apple.product-type.watchkit2-extension",
           "com.apple.product-type.xpc-service"
         ],
         "supportedSDKs" : [
           {
             "name" : "IOS"
+          },
+          {
+            "name" : "MAC_OS"
+          },
+          {
+            "name" : "VISION_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM",
+          "UNIVERSITY_PROGRAM",
+          "XCODE_FREE_PROGRAM"
+        ]
+      },
+      "id" : "AUTOFILL_CREDENTIAL_PROVIDER",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "Game Center allows players to connect to the Game Center service, enabling them to interact with their friends, view leader boards, or play head to head in your game.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "macOS",
+            "profileKey" : "com.apple.developer.game-center",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-game-center.svg",
+        "isPublic" : true,
+        "name" : "Game Center",
+        "sfSymbolIcon" : "gamecenter",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application",
+          "com.apple.product-type.application.on-demand-install-capable",
+          "com.apple.product-type.xpc-service"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "MAC_OS"
+          },
+          {
+            "name" : "TV_OS"
           },
           {
             "name" : "VISION_OS"
@@ -311,7 +375,156 @@
           "XCODE_FREE_PROGRAM"
         ]
       },
-      "id" : "HEALTHKIT",
+      "id" : "GAME_CENTER",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "Enables an app to exceed the default app memory limit on supported devices.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "Increased Memory Limit entitlement",
+            "profileKey" : "com.apple.developer.kernel.increased-memory-limit",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-extenvaddr.svg",
+        "isPublic" : true,
+        "name" : "Increased Memory Limit",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "VISION_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM",
+          "UNIVERSITY_PROGRAM",
+          "XCODE_FREE_PROGRAM"
+        ]
+      },
+      "id" : "INCREASED_MEMORY_LIMIT",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "Inter-App Audio allows an app to send audio to and receive audio from other Inter-App Audio-enabled apps.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "Inter App Audio",
+            "profileKey" : "inter-app-audio",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-inter-app-audio.svg",
+        "isPublic" : true,
+        "name" : "Inter-App Audio",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application",
+          "com.apple.product-type.xpc-service"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM",
+          "UNIVERSITY_PROGRAM",
+          "XCODE_FREE_PROGRAM"
+        ]
+      },
+      "id" : "INTER_APP_AUDIO",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "App groups gives multiple apps access to shared containers and allows certain additional communication between the apps.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "Application Groups entitlement",
+            "profileKey" : "com.apple.security.application-groups",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "${applicationGroupBundle.specialIdentifier.identifier}"
+              }
+            ],
+            "valueType" : "ARRAY"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-app-groups.svg",
+        "isPublic" : true,
+        "name" : "App Groups",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application",
+          "com.apple.product-type.application.on-demand-install-capable",
+          "com.apple.product-type.application.watchapp2",
+          "com.apple.product-type.system-extension",
+          "com.apple.product-type.xpc-service"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "TV_OS"
+          },
+          {
+            "name" : "VISION_OS"
+          },
+          {
+            "name" : "WATCH_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM",
+          "UNIVERSITY_PROGRAM",
+          "XCODE_FREE_PROGRAM"
+        ]
+      },
+      "id" : "APP_GROUPS",
       "type" : "capabilities"
     },
     {
@@ -419,219 +632,6 @@
         ]
       },
       "id" : "HOMEKIT",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "Inter-App Audio allows an app to send audio to and receive audio from other Inter-App Audio-enabled apps.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "Inter App Audio",
-            "profileKey" : "inter-app-audio",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-inter-app-audio.svg",
-        "isPublic" : true,
-        "name" : "Inter-App Audio",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application",
-          "com.apple.product-type.xpc-service"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM",
-          "UNIVERSITY_PROGRAM",
-          "XCODE_FREE_PROGRAM"
-        ]
-      },
-      "id" : "INTER_APP_AUDIO",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "Game Center allows players to connect to the Game Center service, enabling them to interact with their friends, view leader boards, or play head to head in your game.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "macOS",
-            "profileKey" : "com.apple.developer.game-center",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-game-center.svg",
-        "isPublic" : true,
-        "name" : "Game Center",
-        "sfSymbolIcon" : "gamecenter",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application",
-          "com.apple.product-type.application.on-demand-install-capable",
-          "com.apple.product-type.xpc-service"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          },
-          {
-            "name" : "MAC_OS"
-          },
-          {
-            "name" : "TV_OS"
-          },
-          {
-            "name" : "VISION_OS"
-          },
-          {
-            "name" : "WATCH_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM",
-          "UNIVERSITY_PROGRAM",
-          "XCODE_FREE_PROGRAM"
-        ]
-      },
-      "id" : "GAME_CENTER",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "App groups gives multiple apps access to shared containers and allows certain additional communication between the apps.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "Application Groups entitlement",
-            "profileKey" : "com.apple.security.application-groups",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "${applicationGroupBundle.specialIdentifier.identifier}"
-              }
-            ],
-            "valueType" : "ARRAY"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-app-groups.svg",
-        "isPublic" : true,
-        "name" : "App Groups",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application",
-          "com.apple.product-type.application.on-demand-install-capable",
-          "com.apple.product-type.application.watchapp2",
-          "com.apple.product-type.system-extension",
-          "com.apple.product-type.xpc-service"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          },
-          {
-            "name" : "TV_OS"
-          },
-          {
-            "name" : "VISION_OS"
-          },
-          {
-            "name" : "WATCH_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM",
-          "UNIVERSITY_PROGRAM",
-          "XCODE_FREE_PROGRAM"
-        ]
-      },
-      "id" : "APP_GROUPS",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "The AutoFill credential provider allows an app to provide user names and passwords for AutoFill in Safari and other apps, with user permission.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "AutoFill Credential Provider entitlement",
-            "profileKey" : "com.apple.developer.authentication-services.autofill-credential-provider",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/c87487dswl.svg",
-        "isPublic" : true,
-        "name" : "AutoFill Credential Provider",
-        "sfSymbolIcon" : "rectangle.and.pencil.and.ellipsis",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application",
-          "com.apple.product-type.xpc-service"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          },
-          {
-            "name" : "MAC_OS"
-          },
-          {
-            "name" : "VISION_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM",
-          "UNIVERSITY_PROGRAM",
-          "XCODE_FREE_PROGRAM"
-        ]
-      },
-      "id" : "AUTOFILL_CREDENTIAL_PROVIDER",
       "type" : "capabilities"
     }
   ]
