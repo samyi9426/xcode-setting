@@ -9,20 +9,21 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>DispatchQueue.global().async {
-                
-            }</string>
+	<string>DispatchQueue.global().async { [weak self] in
+            guard let self else { return  }
+            &lt;#code#&gt;
+        }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>09C427F3-87E5-4D3A-B0EC-0F411AF7A9C7</string>
+	<string>FB9B1144-9128-499B-ACFC-BB5AB981F135</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>DispatchQueue.global().async</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>dga</string>
+	<string>DispatchQueue.global().async</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
