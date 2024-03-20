@@ -2182,7 +2182,7 @@
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Keyboard Shortcut</key>
-				<string>^@a</string>
+				<string>$@Z</string>
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Title</key>
@@ -2204,7 +2204,7 @@
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Keyboard Shortcut</key>
-				<string>^@a</string>
+				<string>$@Z</string>
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Title</key>
