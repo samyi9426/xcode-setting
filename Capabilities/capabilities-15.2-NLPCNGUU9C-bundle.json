@@ -2,15 +2,11 @@
   "data" : [
     {
       "attributes" : {
-        "description" : "Apple Pay provides an easy and secure way for users to pay in an iOS app, watchOS app, and website on Safari.",
+        "description" : "DriverKit Communicates with Drivers\n",
         "distributionTypes" : [
           {
             "displayValue" : "Ad hoc",
             "name" : "AD_HOC"
-          },
-          {
-            "displayValue" : "Developer ID",
-            "name" : "DEVELOPER_ID"
           },
           {
             "displayValue" : "Development",
@@ -24,73 +20,8 @@
         "enabledByDefault" : false,
         "entitlements" : [
           {
-            "name" : "Apple Pay Payment Processing entitlement",
-            "profileKey" : "com.apple.developer.in-app-payments",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "${applePayBundle.specialIdentifier.identifier}"
-              }
-            ],
-            "valueType" : "ARRAY"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-apple-pay.svg",
-        "isPublic" : true,
-        "name" : "Apple Pay Payment Processing",
-        "sfSymbolIcon" : "creditcard",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application",
-          "com.apple.product-type.application.on-demand-install-capable",
-          "com.apple.product-type.xpc-service"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          },
-          {
-            "name" : "MAC_OS"
-          },
-          {
-            "name" : "VISION_OS"
-          },
-          {
-            "name" : "WATCH_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_PROGRAM"
-        ]
-      },
-      "id" : "APPLE_PAY",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "Allows an app to communicate with the same app on one or more other devices to create a group activity within a FaceTime call. ",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Ad hoc",
-            "name" : "AD_HOC"
-          },
-          {
-            "displayValue" : "Developer ID",
-            "name" : "DEVELOPER_ID"
-          },
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          },
-          {
-            "displayValue" : "App Store Connect",
-            "name" : "STORE"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "Group Activities",
-            "profileKey" : "com.apple.developer.group-session",
+            "name" : "Communicates with Drivers entitlement",
+            "profileKey" : "com.apple.developer.driverkit.communicates-with-drivers",
             "values" : [
               {
                 "inference" : "constant",
@@ -100,25 +31,16 @@
             "valueType" : "BOOLEAN"
           }
         ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-groupactivities.svg",
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-driverkit.svg",
         "isPublic" : true,
-        "name" : "Group Activities",
-        "sfSymbolIcon" : "shareplay",
+        "name" : "DriverKit Communicates with Drivers",
+        "sfSymbolIcon" : "puzzlepiece.extension",
         "supportedProductTypes" : [
           "com.apple.product-type.application"
         ],
         "supportedSDKs" : [
           {
             "name" : "IOS"
-          },
-          {
-            "name" : "MAC_OS"
-          },
-          {
-            "name" : "TV_OS"
-          },
-          {
-            "name" : "VISION_OS"
           }
         ],
         "validTeamTypes" : [
@@ -126,310 +48,7 @@
           "APPLE_DEVELOPER_PROGRAM"
         ]
       },
-      "id" : "GROUP_ACTIVITIES",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "WeatherKit provides current and forecasted weather information.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Ad hoc",
-            "name" : "AD_HOC"
-          },
-          {
-            "displayValue" : "Developer ID",
-            "name" : "DEVELOPER_ID"
-          },
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          },
-          {
-            "displayValue" : "App Store Connect",
-            "name" : "STORE"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "WeatherKit",
-            "profileKey" : "com.apple.developer.weatherkit",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-weatherkit.svg",
-        "isPublic" : true,
-        "name" : "WeatherKit",
-        "sfSymbolIcon" : "cloud.sun",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application",
-          "com.apple.product-type.xpc-service"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          },
-          {
-            "name" : "MAC_OS"
-          },
-          {
-            "name" : "TV_OS"
-          },
-          {
-            "name" : "VISION_OS"
-          },
-          {
-            "name" : "WATCH_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM"
-        ]
-      },
-      "id" : "WEATHERKIT",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "The network extensions capability allows app extensions to extend and customize the networking capabilities of a device.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Ad hoc",
-            "name" : "AD_HOC"
-          },
-          {
-            "displayValue" : "Developer ID",
-            "name" : "DEVELOPER_ID"
-          },
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          },
-          {
-            "displayValue" : "App Store Connect",
-            "name" : "STORE"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "Network Extensions",
-            "profileKey" : "com.apple.developer.networking.networkextension",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "app-proxy-provider"
-              },
-              {
-                "inference" : "constant",
-                "value" : "content-filter-provider"
-              },
-              {
-                "inference" : "constant",
-                "value" : "packet-tunnel-provider"
-              },
-              {
-                "inference" : "constant",
-                "value" : "dns-proxy"
-              },
-              {
-                "inference" : "constant",
-                "value" : "dns-settings"
-              },
-              {
-                "inference" : "constant",
-                "value" : "relay"
-              }
-            ],
-            "valueType" : "ARRAY"
-          },
-          {
-            "name" : "Network Extensions direct distribution",
-            "profileKey" : "com.apple.developer.networking.networkextension",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "packet-tunnel-provider-systemextension"
-              },
-              {
-                "inference" : "constant",
-                "value" : "app-proxy-provider-systemextension"
-              },
-              {
-                "inference" : "constant",
-                "value" : "content-filter-provider-systemextension"
-              },
-              {
-                "inference" : "constant",
-                "value" : "dns-proxy-systemextension"
-              },
-              {
-                "inference" : "constant",
-                "value" : "dns-settings"
-              },
-              {
-                "inference" : "constant",
-                "value" : "relay"
-              }
-            ],
-            "valueType" : "ARRAY"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-nwext04537.svg",
-        "isPublic" : true,
-        "name" : "Network Extensions",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application",
-          "com.apple.product-type.system-extension",
-          "com.apple.product-type.xpc-service"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          },
-          {
-            "name" : "MAC_OS"
-          },
-          {
-            "name" : "TV_OS"
-          },
-          {
-            "name" : "VISION_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM",
-          "UNIVERSITY_PROGRAM"
-        ]
-      },
-      "id" : "NETWORK_EXTENSIONS",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "Access Wifi Information allows an app to obtain information about the currently connected WiFi network.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Ad hoc",
-            "name" : "AD_HOC"
-          },
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          },
-          {
-            "displayValue" : "App Store Connect",
-            "name" : "STORE"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "Access Wifi Info",
-            "profileKey" : "com.apple.developer.networking.wifi-info",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/access-wifi.svg",
-        "isPublic" : true,
-        "name" : "Access Wi-Fi Information",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application",
-          "com.apple.product-type.xpc-service"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          },
-          {
-            "name" : "WATCH_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM",
-          "UNIVERSITY_PROGRAM"
-        ]
-      },
-      "id" : "ACCESS_WIFI_INFORMATION",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "Personal VPN allows an app to create and control a custom system VPN configuration.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Ad hoc",
-            "name" : "AD_HOC"
-          },
-          {
-            "displayValue" : "Developer ID",
-            "name" : "DEVELOPER_ID"
-          },
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          },
-          {
-            "displayValue" : "App Store Connect",
-            "name" : "STORE"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "Personal VPN",
-            "profileKey" : "com.apple.developer.networking.vpn.api",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "allow-vpn"
-              }
-            ],
-            "valueType" : "ARRAY"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-vpn-lite.svg",
-        "isPublic" : true,
-        "name" : "Personal VPN",
-        "sfSymbolIcon" : "network.connected.to.line.below",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application",
-          "com.apple.product-type.xpc-service"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          },
-          {
-            "name" : "MAC_OS"
-          },
-          {
-            "name" : "VISION_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM",
-          "UNIVERSITY_PROGRAM"
-        ]
-      },
-      "id" : "PERSONAL_VPN",
+      "id" : "DRIVERKIT_COMMUNICATESWITHDRIVERS",
       "type" : "capabilities"
     },
     {
@@ -517,7 +136,109 @@
     },
     {
       "attributes" : {
-        "description" : "The Siri capability allows an app to handle Siri requests.",
+        "description" : "A Boolean value that indicates whether your extension has permission to run as a user-space driver. This is a development only entitlement.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "DriverKit for Development entitlement",
+            "profileKey" : "com.apple.developer.driverkit",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-driverkit.svg",
+        "isPublic" : true,
+        "name" : "DriverKit (development)",
+        "sfSymbolIcon" : "puzzlepiece.extension",
+        "supportedProductTypes" : [
+          "com.apple.product-type.driver-extension"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "DRIVER_KIT"
+          },
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "MAC_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM"
+        ]
+      },
+      "id" : "DRIVERKIT_PUBLIC",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "The MapKit framework provides an interface for embedding maps directly into your own windows and views of your app.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Developer ID",
+            "name" : "DEVELOPER_ID"
+          },
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          },
+          {
+            "displayValue" : "App Store Connect",
+            "name" : "STORE"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "Maps",
+            "profileKey" : "com.apple.developer.maps",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-maps.svg",
+        "isPublic" : true,
+        "name" : "Maps",
+        "sfSymbolIcon" : "map",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application",
+          "com.apple.product-type.xpc-service"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "MAC_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM",
+          "XCODE_FREE_PROGRAM"
+        ]
+      },
+      "id" : "MAPS",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "Sensitive Content Analysis allows an app to detect sensitive images and videos that contain nudity on-device for the intended purposes of allowing users to choose to view the photo before showing it to them, or a heavier weight intervention.",
         "distributionTypes" : [
           {
             "displayValue" : "Ad hoc",
@@ -535,51 +256,39 @@
         "enabledByDefault" : false,
         "entitlements" : [
           {
-            "name" : "Siri",
-            "profileKey" : "com.apple.developer.siri",
+            "name" : "Sensitive Content Analysis",
+            "profileKey" : "com.apple.developer.sensitivecontentanalysis.client",
             "values" : [
               {
                 "inference" : "constant",
-                "value" : "true"
+                "value" : "analysis"
               }
             ],
-            "valueType" : "BOOLEAN"
+            "valueType" : "ARRAY"
           }
         ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-rhsvud.svg",
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-sensitive-content-analysis.svg",
         "isPublic" : true,
-        "name" : "Siri",
-        "sfSymbolIcon" : "siri",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application",
-          "com.apple.product-type.watchkit2-extension"
-        ],
+        "name" : "Sensitive Content Analysis",
+        "sfSymbolIcon" : "bubble.left.and.exclamationmark.bubble.right",
         "supportedSDKs" : [
           {
             "name" : "IOS"
           },
           {
-            "name" : "TV_OS"
-          },
-          {
-            "name" : "VISION_OS"
-          },
-          {
-            "name" : "WATCH_OS"
+            "name" : "MAC_OS"
           }
         ],
         "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM",
-          "UNIVERSITY_PROGRAM"
+          "APPLE_DEVELOPER_PROGRAM"
         ]
       },
-      "id" : "SIRIKIT",
+      "id" : "SENSITIVE_CONTENT_ANALYSIS",
       "type" : "capabilities"
     },
     {
       "attributes" : {
-        "description" : "Time Sensitive notifications deliver information that demand immediate attention and directly call on the individual to take action in the moment they receive them. Time Sensitive alerts are always delivered immediately, surfaced above other notifications, and allowed to break through Focus and Do Not Disturb.",
+        "description" : "Enabling System Extension enables your app to install associated extensins.",
         "distributionTypes" : [
           {
             "displayValue" : "Ad hoc",
@@ -601,8 +310,8 @@
         "enabledByDefault" : false,
         "entitlements" : [
           {
-            "name" : "Time Sensitive Notifications",
-            "profileKey" : "com.apple.developer.usernotifications.time-sensitive",
+            "name" : "System Extension Entitlement",
+            "profileKey" : "com.apple.developer.system-extension.install",
             "values" : [
               {
                 "inference" : "constant",
@@ -612,193 +321,16 @@
             "valueType" : "BOOLEAN"
           }
         ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-timesensitive-notification.svg",
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-systemext.svg",
         "isPublic" : true,
-        "name" : "Time Sensitive Notifications",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application",
-          "com.apple.product-type.watchkit2-extension"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          },
-          {
-            "name" : "MAC_OS"
-          },
-          {
-            "name" : "WATCH_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM"
-        ]
-      },
-      "id" : "USERNOTIFICATIONS_TIMESENSITIVE",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "The Wireless Accessory Configuration capability allows an app to configure MFi Wi-Fi accessories.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Ad hoc",
-            "name" : "AD_HOC"
-          },
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          },
-          {
-            "displayValue" : "App Store Connect",
-            "name" : "STORE"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "Wireless Accessory Configuration",
-            "profileKey" : "com.apple.external-accessory.wireless-configuration",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-wireless-accessory.svg",
-        "isPublic" : true,
-        "name" : "Wireless Accessory Configuration",
-        "sfSymbolIcon" : "wifi.circle",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application",
-          "com.apple.product-type.xpc-service"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM",
-          "UNIVERSITY_PROGRAM",
-          "XCODE_FREE_PROGRAM"
-        ]
-      },
-      "id" : "WIRELESS_ACCESSORY_CONFIGURATION",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "Allows an app to support initiating collaboration using Messages.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Ad hoc",
-            "name" : "AD_HOC"
-          },
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          },
-          {
-            "displayValue" : "App Store Connect",
-            "name" : "STORE"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "Messages Collaboration",
-            "profileKey" : "com.apple.developer.shared-with-you.collaboration",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-messages-collaboration.svg",
-        "isPublic" : true,
-        "name" : "Messages Collaboration",
+        "name" : "System Extension",
+        "sfSymbolIcon" : "puzzlepiece.extension",
         "supportedProductTypes" : [
           "com.apple.product-type.application"
         ],
         "supportedSDKs" : [
           {
-            "name" : "IOS"
-          },
-          {
             "name" : "MAC_OS"
-          },
-          {
-            "name" : "VISION_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_PROGRAM"
-        ]
-      },
-      "id" : "MESSAGES_COLLABORATION",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "App Attest allows you to verify that an iOS app connecting to your server is legitimate, by signing the app identity upon connection.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Ad hoc",
-            "name" : "AD_HOC"
-          },
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          },
-          {
-            "displayValue" : "App Store Connect",
-            "name" : "STORE"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "App Attest Entitlement",
-            "profileKey" : "com.apple.developer.devicecheck.appattest-environment",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "development"
-              },
-              {
-                "inference" : "constant",
-                "value" : "production"
-              }
-            ],
-            "valueType" : "DISTRIBUTION_ENV_SPECIFIC"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-app-at-test.svg",
-        "isPublic" : true,
-        "name" : "App Attest",
-        "sfSymbolIcon" : "checkmark.seal",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application",
-          "com.apple.product-type.application.on-demand-install-capable"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          },
-          {
-            "name" : "TV_OS"
-          },
-          {
-            "name" : "VISION_OS"
           }
         ],
         "validTeamTypes" : [
@@ -806,12 +338,12 @@
           "APPLE_DEVELOPER_PROGRAM"
         ]
       },
-      "id" : "APP_ATTEST",
+      "id" : "SYSTEM_EXTENSION_INSTALL",
       "type" : "capabilities"
     },
     {
       "attributes" : {
-        "description" : "Allows 3rd party developers to be able to pass in the setup code information to pair Matter accessories to their ecosystem or Apple Home without having to scan a QRCode.",
+        "description" : "Sustained Execution indicates whether your app can exhibit consistent, sustained performance when the system constrains the app to lower power levels on applicable devices.",
         "distributionTypes" : [
           {
             "displayValue" : "Ad hoc",
@@ -833,8 +365,8 @@
         "enabledByDefault" : false,
         "entitlements" : [
           {
-            "name" : "Matter Allow Setup Payload",
-            "profileKey" : "com.apple.developer.matter.allow-setup-payload",
+            "name" : "Sustained Execution",
+            "profileKey" : "com.apple.developer.sustained-execution",
             "values" : [
               {
                 "inference" : "constant",
@@ -844,9 +376,60 @@
             "valueType" : "BOOLEAN"
           }
         ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-matter-allow-setup-payload.svg",
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-sustained-execution.svg",
         "isPublic" : true,
-        "name" : "Matter Allow Setup Payload",
+        "name" : "Sustained Execution",
+        "sfSymbolIcon" : "gauge.with.dots.needle.67percent",
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "MAC_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM"
+        ]
+      },
+      "id" : "SUSTAINED_EXECUTION",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "Inter-App Audio allows an app to send audio to and receive audio from other Inter-App Audio-enabled apps.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Ad hoc",
+            "name" : "AD_HOC"
+          },
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          },
+          {
+            "displayValue" : "App Store Connect",
+            "name" : "STORE"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "Inter App Audio",
+            "profileKey" : "inter-app-audio",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-inter-app-audio.svg",
+        "isPublic" : true,
+        "name" : "Inter-App Audio",
         "supportedProductTypes" : [
           "com.apple.product-type.application",
           "com.apple.product-type.xpc-service"
@@ -854,251 +437,6 @@
         "supportedSDKs" : [
           {
             "name" : "IOS"
-          },
-          {
-            "name" : "MAC_OS"
-          },
-          {
-            "name" : "TV_OS"
-          },
-          {
-            "name" : "VISION_OS"
-          },
-          {
-            "name" : "WATCH_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM"
-        ]
-      },
-      "id" : "MATTER_ALLOW_SETUP_PAYLOAD",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "Hotspot configurations allow an app to configure Wi-Fi networks.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Ad hoc",
-            "name" : "AD_HOC"
-          },
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          },
-          {
-            "displayValue" : "App Store Connect",
-            "name" : "STORE"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "Hotspot Configuration",
-            "profileKey" : "com.apple.developer.networking.HotspotConfiguration",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-hsc639vei8.svg",
-        "isPublic" : true,
-        "name" : "Hotspot",
-        "sfSymbolIcon" : "personalhotspot",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application",
-          "com.apple.product-type.application.on-demand-install-capable",
-          "com.apple.product-type.watchkit2-extension"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          },
-          {
-            "name" : "VISION_OS"
-          },
-          {
-            "name" : "WATCH_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM",
-          "UNIVERSITY_PROGRAM"
-        ]
-      },
-      "id" : "HOT_SPOT",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "Font Installation allows your app, with user permission, to install and use custom fonts.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Ad hoc",
-            "name" : "AD_HOC"
-          },
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          },
-          {
-            "displayValue" : "App Store Connect",
-            "name" : "STORE"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "Font Installation Entitlement",
-            "profileKey" : "com.apple.developer.user-fonts",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "app-usage"
-              },
-              {
-                "inference" : "constant",
-                "value" : "system-installation"
-              }
-            ],
-            "valueType" : "ARRAY"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-fntinstall.svg",
-        "isPublic" : true,
-        "name" : "Fonts",
-        "sfSymbolIcon" : "f.square",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          },
-          {
-            "name" : "VISION_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM"
-        ]
-      },
-      "id" : "FONT_INSTALLATION",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "Managed App Installation UI allows an app built by an MDM vendor to display a view to install and open managed applications.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Ad hoc",
-            "name" : "AD_HOC"
-          },
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          },
-          {
-            "displayValue" : "App Store Connect",
-            "name" : "STORE"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "Managed App Installation UI",
-            "profileKey" : "com.apple.developer.managed-app-distribution.install-ui",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "managed-app"
-              }
-            ],
-            "valueType" : "ARRAY"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-managedapp-installation.svg",
-        "isPublic" : true,
-        "name" : "Managed App Installation UI",
-        "sfSymbolIcon" : "arrow.down.app.2.stack.3d",
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          },
-          {
-            "name" : "MAC_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_PROGRAM"
-        ]
-      },
-      "id" : "MANAGED_APP_INSTALLATION_UI",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "Game Center allows players to connect to the Game Center service, enabling them to interact with their friends, view leader boards, or play head to head in your game.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Ad hoc",
-            "name" : "AD_HOC"
-          },
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          },
-          {
-            "displayValue" : "App Store Connect",
-            "name" : "STORE"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "macOS",
-            "profileKey" : "com.apple.developer.game-center",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-game-center.svg",
-        "isPublic" : true,
-        "name" : "Game Center",
-        "sfSymbolIcon" : "gamecenter",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application",
-          "com.apple.product-type.application.on-demand-install-capable",
-          "com.apple.product-type.xpc-service"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          },
-          {
-            "name" : "MAC_OS"
-          },
-          {
-            "name" : "TV_OS"
-          },
-          {
-            "name" : "VISION_OS"
-          },
-          {
-            "name" : "WATCH_OS"
           }
         ],
         "validTeamTypes" : [
@@ -1108,7 +446,223 @@
           "XCODE_FREE_PROGRAM"
         ]
       },
-      "id" : "GAME_CENTER",
+      "id" : "INTER_APP_AUDIO",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "On Demand Install Capable for App Clip Extensions",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Ad hoc",
+            "name" : "AD_HOC"
+          },
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          },
+          {
+            "displayValue" : "App Store Connect",
+            "name" : "STORE"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "On Demand Install Capable for App Clip Extensions",
+            "profileKey" : "com.apple.developer.on-demand-install-capable",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-appclip.svg",
+        "isPublic" : true,
+        "name" : "On Demand Install Capable for App Clip Extensions",
+        "sfSymbolIcon" : "appclip",
+        "supportedProductTypes" : [
+          "com.apple.product-type.xpc-service"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_PROGRAM"
+        ]
+      },
+      "id" : "ONDEMANDINSTALL_EXTENSIONS",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "HealthKit Estimate Recalibration allows an app to tell the device to recalibrate its estimates for specified sample types.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Ad hoc",
+            "name" : "AD_HOC"
+          },
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          },
+          {
+            "displayValue" : "App Store Connect",
+            "name" : "STORE"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "Recalibrate Estimates",
+            "profileKey" : "com.apple.developer.healthkit.recalibrate-estimates",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-healthkit.svg",
+        "isPublic" : true,
+        "name" : "HealthKit Estimate Recalibration",
+        "sfSymbolIcon" : "health",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application",
+          "com.apple.product-type.watchkit2-extension",
+          "com.apple.product-type.xpc-service"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "VISION_OS"
+          },
+          {
+            "name" : "WATCH_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM"
+        ]
+      },
+      "id" : "HEALTHKIT_RECALIBRATE_ESTIMATES",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "Enabling Extended Virtual Addressing allows you to use more address space in your app.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Ad hoc",
+            "name" : "AD_HOC"
+          },
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          },
+          {
+            "displayValue" : "App Store Connect",
+            "name" : "STORE"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "Extended Virtual Address Space Entitlement",
+            "profileKey" : "com.apple.developer.kernel.extended-virtual-addressing",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-extenvaddr.svg",
+        "isPublic" : true,
+        "name" : "Extended Virtual Addressing",
+        "sfSymbolIcon" : "memorychip",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "TV_OS"
+          },
+          {
+            "name" : "VISION_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM"
+        ]
+      },
+      "id" : "EXTENDED_VIRTUAL_ADDRESSING",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "Provide access to depth data under water up to a safe limit.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Ad hoc",
+            "name" : "AD_HOC"
+          },
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          },
+          {
+            "displayValue" : "App Store Connect",
+            "name" : "STORE"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : " Shallow Depth and Pressure",
+            "profileKey" : "com.apple.developer.submerged-shallow-depth-and-pressure",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-shallow-depth.svg",
+        "isPublic" : true,
+        "name" : "Shallow Depth and Pressure",
+        "sfSymbolIcon" : "water.waves.and.arrow.down",
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "WATCH_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_PROGRAM"
+        ]
+      },
+      "id" : "SHALLOW_DEPTH_PRESSURE",
       "type" : "capabilities"
     },
     {
@@ -1294,7 +848,7 @@
     },
     {
       "attributes" : {
-        "description" : "Provide access to depth data under water up to a safe limit.",
+        "description" : "Apple Pay Later Merchandising allows an app to message the availability and benefits of Apple Pay Later by displaying the Apple Pay Later visual merchandising widget.",
         "distributionTypes" : [
           {
             "displayValue" : "Ad hoc",
@@ -1310,180 +864,32 @@
           }
         ],
         "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : " Shallow Depth and Pressure",
-            "profileKey" : "com.apple.developer.submerged-shallow-depth-and-pressure",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-shallow-depth.svg",
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-applepay-later.svg",
         "isPublic" : true,
-        "name" : "Shallow Depth and Pressure",
-        "sfSymbolIcon" : "water.waves.and.arrow.down",
-        "supportedSDKs" : [
+        "name" : "Apple Pay Later Merchandising",
+        "settings" : [
           {
-            "name" : "IOS"
-          },
-          {
-            "name" : "WATCH_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_PROGRAM"
-        ]
-      },
-      "id" : "SHALLOW_DEPTH_PRESSURE",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "The Journaling Suggestions entitlement allows an application to invoke the suggestion sheet for users to choose what they want to journal about and save it to the app.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Ad hoc",
-            "name" : "AD_HOC"
-          },
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          },
-          {
-            "displayValue" : "App Store Connect",
-            "name" : "STORE"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "Journaling Suggestions",
-            "profileKey" : "com.apple.developer.journal.allow",
-            "values" : [
+            "key" : "Q3ZWTV5HST",
+            "options" : [
               {
-                "inference" : "constant",
-                "value" : "suggestions"
+                "enabledByDefault" : true,
+                "entitlements" : [
+                  {
+                    "name" : "Apple Pay Later Merchandising (Opt-In)",
+                    "profileKey" : "com.apple.developer.pay-later-merchandising",
+                    "values" : [
+                      {
+                        "inference" : "constant",
+                        "value" : "payinfour-merchandising"
+                      }
+                    ],
+                    "valueType" : "ARRAY"
+                  }
+                ],
+                "key" : "63576NA22B"
               }
-            ],
-            "valueType" : "ARRAY"
+            ]
           }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-journaling-suggestions.svg",
-        "isPublic" : true,
-        "name" : "Journaling Suggestions",
-        "sfSymbolIcon" : "pencil.and.sparkles",
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_PROGRAM"
-        ]
-      },
-      "id" : "JOURNALING_SUGGESTIONS",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "Enable your application or app extension to discover the current user of the device.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Ad hoc",
-            "name" : "AD_HOC"
-          },
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          },
-          {
-            "displayValue" : "App Store Connect",
-            "name" : "STORE"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "TV Services API Entitlement",
-            "profileKey" : "com.apple.developer.user-management",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "get-current-user"
-              },
-              {
-                "inference" : "constant",
-                "value" : "runs-as-current-user"
-              },
-              {
-                "inference" : "constant",
-                "value" : "runs-as-current-user-with-user-independent-keychain"
-              }
-            ],
-            "valueType" : "ARRAY"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-usermanage.svg",
-        "isPublic" : true,
-        "name" : "User Management",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application",
-          "com.apple.product-type.xpc-service"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "TV_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_PROGRAM"
-        ]
-      },
-      "id" : "USER_MANAGEMENT",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "On Demand Install Capable for App Clip Extensions",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Ad hoc",
-            "name" : "AD_HOC"
-          },
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          },
-          {
-            "displayValue" : "App Store Connect",
-            "name" : "STORE"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "On Demand Install Capable for App Clip Extensions",
-            "profileKey" : "com.apple.developer.on-demand-install-capable",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-appclip.svg",
-        "isPublic" : true,
-        "name" : "On Demand Install Capable for App Clip Extensions",
-        "sfSymbolIcon" : "appclip",
-        "supportedProductTypes" : [
-          "com.apple.product-type.xpc-service"
         ],
         "supportedSDKs" : [
           {
@@ -1494,16 +900,20 @@
           "APPLE_DEVELOPER_PROGRAM"
         ]
       },
-      "id" : "ONDEMANDINSTALL_EXTENSIONS",
+      "id" : "APPLE_PAY_LATER_MERCHANDISING",
       "type" : "capabilities"
     },
     {
       "attributes" : {
-        "description" : "Enables your app to report Push to Talk channels to the system so that it can handle transmitting and receiving audio in the background",
+        "description" : "Allows an app to communicate with the same app on one or more other devices to create a group activity within a FaceTime call. ",
         "distributionTypes" : [
           {
             "displayValue" : "Ad hoc",
             "name" : "AD_HOC"
+          },
+          {
+            "displayValue" : "Developer ID",
+            "name" : "DEVELOPER_ID"
           },
           {
             "displayValue" : "Development",
@@ -1517,8 +927,8 @@
         "enabledByDefault" : false,
         "entitlements" : [
           {
-            "name" : "Push to Talk",
-            "profileKey" : "com.apple.developer.push-to-talk",
+            "name" : "Group Activities",
+            "profileKey" : "com.apple.developer.group-session",
             "values" : [
               {
                 "inference" : "constant",
@@ -1528,12 +938,312 @@
             "valueType" : "BOOLEAN"
           }
         ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-push-to-talk.svg",
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-groupactivities.svg",
         "isPublic" : true,
-        "name" : "Push to Talk",
+        "name" : "Group Activities",
+        "sfSymbolIcon" : "shareplay",
         "supportedProductTypes" : [
           "com.apple.product-type.application"
         ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "MAC_OS"
+          },
+          {
+            "name" : "TV_OS"
+          },
+          {
+            "name" : "VISION_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM"
+        ]
+      },
+      "id" : "GROUP_ACTIVITIES",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "Managed App Installation UI allows an app built by an MDM vendor to display a view to install and open managed applications.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Ad hoc",
+            "name" : "AD_HOC"
+          },
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          },
+          {
+            "displayValue" : "App Store Connect",
+            "name" : "STORE"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "Managed App Installation UI",
+            "profileKey" : "com.apple.developer.managed-app-distribution.install-ui",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "managed-app"
+              }
+            ],
+            "valueType" : "ARRAY"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-managedapp-installation.svg",
+        "isPublic" : true,
+        "name" : "Managed App Installation UI",
+        "sfSymbolIcon" : "arrow.down.app.2.stack.3d",
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "MAC_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_PROGRAM"
+        ]
+      },
+      "id" : "MANAGED_APP_INSTALLATION_UI",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "VMNet indicates whether the app manages virtual network interfaces without escalating privileges to the root user.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Ad hoc",
+            "name" : "AD_HOC"
+          },
+          {
+            "displayValue" : "Developer ID",
+            "name" : "DEVELOPER_ID"
+          },
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          },
+          {
+            "displayValue" : "App Store Connect",
+            "name" : "STORE"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "VMNet",
+            "profileKey" : "com.apple.developer.networking.vmnet",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-vmnet.svg",
+        "isPublic" : true,
+        "name" : "VMNet",
+        "sfSymbolIcon" : "square.grid.3x3.middle.filled",
+        "supportedSDKs" : [
+          {
+            "name" : "MAC_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM"
+        ]
+      },
+      "id" : "VMNET",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "DriverKit USB Transport (development)",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "DriverKit USB Transport (development)",
+            "profileKey" : "com.apple.developer.driverkit.transport.usb",
+            "values" : [
+
+            ]
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-driverkit.svg",
+        "isPublic" : true,
+        "name" : "DriverKit USB Transport (development)",
+        "sfSymbolIcon" : "puzzlepiece.extension",
+        "supportedProductTypes" : [
+          "com.apple.product-type.driver-extension"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "DRIVER_KIT"
+          },
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "MAC_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM"
+        ]
+      },
+      "id" : "DRIVERKIT_USBTRANSPORT_PUB",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "DriverKit Allow Third Party UserClients",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Ad hoc",
+            "name" : "AD_HOC"
+          },
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          },
+          {
+            "displayValue" : "App Store Connect",
+            "name" : "STORE"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "DriverKit Allow Third Party UserClients",
+            "profileKey" : "com.apple.developer.driverkit.allow-third-party-userclients",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-driverkit.svg",
+        "isPublic" : true,
+        "name" : "DriverKit Allow Third Party UserClients",
+        "sfSymbolIcon" : "puzzlepiece.extension",
+        "supportedProductTypes" : [
+          "com.apple.product-type.driver-extension"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "DRIVER_KIT"
+          },
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "MAC_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM"
+        ]
+      },
+      "id" : "DRIVERKIT_ALLOWTHIRDPARTY_USERCLIENTS",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "DriverKit Family HID EventService for development",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "DriverKit Family HID EventService (development)",
+            "profileKey" : "com.apple.developer.driverkit.family.hid.eventservice",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-driverkit.svg",
+        "isPublic" : true,
+        "name" : "DriverKit Family HID EventService (development)",
+        "sfSymbolIcon" : "puzzlepiece.extension",
+        "supportedProductTypes" : [
+          "com.apple.product-type.driver-extension"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "DRIVER_KIT"
+          },
+          {
+            "name" : "MAC_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM"
+        ]
+      },
+      "id" : "DRIVERKIT_FAMILY_HIDEVENTSERVICE_PUB",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "Enables an app to interact with a local thread network to access and manage credentials to interact with hardware on the network.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "Manage Thread Network Credentials (Development)",
+            "profileKey" : "com.apple.developer.networking.manage-thread-network-credentials",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-network-credentials.svg",
+        "isPublic" : true,
+        "name" : "Manage Thread Network Credentials (development)",
+        "sfSymbolIcon" : "network",
         "supportedSDKs" : [
           {
             "name" : "IOS"
@@ -1544,16 +1254,66 @@
           "APPLE_DEVELOPER_PROGRAM"
         ]
       },
-      "id" : "PUSH_TO_TALK",
+      "id" : "DEV_MANAGE_THREAD_NETWORK_CREDENTIALS",
       "type" : "capabilities"
     },
     {
       "attributes" : {
-        "description" : "Inter-App Audio allows an app to send audio to and receive audio from other Inter-App Audio-enabled apps.",
+        "description" : "DriverKit Family HID Device for development",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "DriverKit Family HID Device (development)",
+            "profileKey" : "com.apple.developer.driverkit.family.hid.device",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-driverkit.svg",
+        "isPublic" : true,
+        "name" : "DriverKit Family HID Device (development)",
+        "sfSymbolIcon" : "puzzlepiece.extension",
+        "supportedProductTypes" : [
+          "com.apple.product-type.driver-extension"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "DRIVER_KIT"
+          },
+          {
+            "name" : "MAC_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM"
+        ]
+      },
+      "id" : "DRIVERKIT_FAMILY_HIDDEVICE_PUB",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "Associated domains allow an app to be associated with a domain for specific services such as accessing Safari saved passwords and activity continuation.",
         "distributionTypes" : [
           {
             "displayValue" : "Ad hoc",
             "name" : "AD_HOC"
+          },
+          {
+            "displayValue" : "Developer ID",
+            "name" : "DEVELOPER_ID"
           },
           {
             "displayValue" : "Development",
@@ -1567,8 +1327,65 @@
         "enabledByDefault" : false,
         "entitlements" : [
           {
-            "name" : "Inter App Audio",
-            "profileKey" : "inter-app-audio",
+            "name" : "Associated Domains",
+            "profileKey" : "com.apple.developer.associated-domains",
+            "values" : [
+              {
+                "inference" : "wildcard",
+                "value" : "*"
+              }
+            ],
+            "valueType" : "STRING"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-associated-domains.svg",
+        "isPublic" : true,
+        "name" : "Associated Domains",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application",
+          "com.apple.product-type.application.on-demand-install-capable",
+          "com.apple.product-type.xpc-service"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "MAC_OS"
+          },
+          {
+            "name" : "TV_OS"
+          },
+          {
+            "name" : "VISION_OS"
+          },
+          {
+            "name" : "WATCH_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM",
+          "UNIVERSITY_PROGRAM"
+        ]
+      },
+      "id" : "ASSOCIATED_DOMAINS",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "DriverKit Family Serial for development",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "DriverKit Family Serial (development)",
+            "profileKey" : "com.apple.developer.driverkit.family.serial",
             "values" : [
               {
                 "inference" : "constant",
@@ -1578,16 +1395,86 @@
             "valueType" : "BOOLEAN"
           }
         ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-inter-app-audio.svg",
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-driverkit.svg",
         "isPublic" : true,
-        "name" : "Inter-App Audio",
+        "name" : "DriverKit Family Serial (development)",
+        "sfSymbolIcon" : "puzzlepiece.extension",
+        "supportedProductTypes" : [
+          "com.apple.product-type.driver-extension"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "DRIVER_KIT"
+          },
+          {
+            "name" : "MAC_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM"
+        ]
+      },
+      "id" : "DRIVERKIT_FAMILY_SERIAL_PUB",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "App groups gives multiple apps access to shared containers and allows certain additional communication between the apps.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Ad hoc",
+            "name" : "AD_HOC"
+          },
+          {
+            "displayValue" : "Developer ID",
+            "name" : "DEVELOPER_ID"
+          },
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          },
+          {
+            "displayValue" : "App Store Connect",
+            "name" : "STORE"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "Application Groups entitlement",
+            "profileKey" : "com.apple.security.application-groups",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "${applicationGroupBundle.specialIdentifier.identifier}"
+              }
+            ],
+            "valueType" : "ARRAY"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-app-groups.svg",
+        "isPublic" : true,
+        "name" : "App Groups",
         "supportedProductTypes" : [
           "com.apple.product-type.application",
+          "com.apple.product-type.application.on-demand-install-capable",
+          "com.apple.product-type.application.watchapp2",
+          "com.apple.product-type.system-extension",
           "com.apple.product-type.xpc-service"
         ],
         "supportedSDKs" : [
           {
             "name" : "IOS"
+          },
+          {
+            "name" : "TV_OS"
+          },
+          {
+            "name" : "VISION_OS"
+          },
+          {
+            "name" : "WATCH_OS"
           }
         ],
         "validTeamTypes" : [
@@ -1597,58 +1484,12 @@
           "XCODE_FREE_PROGRAM"
         ]
       },
-      "id" : "INTER_APP_AUDIO",
+      "id" : "APP_GROUPS",
       "type" : "capabilities"
     },
     {
       "attributes" : {
-        "description" : "Family Controls enables your app for parental controls, granting access to the Managed Settings and Device Activity frameworks in the Screen Time API. ",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "Family Controls",
-            "profileKey" : "com.apple.developer.family-controls",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-familycontrols.svg",
-        "isPublic" : true,
-        "name" : "Family Controls (Development)",
-        "sfSymbolIcon" : "person.2",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application",
-          "com.apple.product-type.xpc-service"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          },
-          {
-            "name" : "VISION_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_PROGRAM"
-        ]
-      },
-      "id" : "FAMILY_CONTROLS",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "HealthKit Estimate Recalibration allows an app to tell the device to recalibrate its estimates for specified sample types.",
+        "description" : "Font Installation allows your app, with user permission, to install and use custom fonts.",
         "distributionTypes" : [
           {
             "displayValue" : "Ad hoc",
@@ -1666,25 +1507,27 @@
         "enabledByDefault" : false,
         "entitlements" : [
           {
-            "name" : "Recalibrate Estimates",
-            "profileKey" : "com.apple.developer.healthkit.recalibrate-estimates",
+            "name" : "Font Installation Entitlement",
+            "profileKey" : "com.apple.developer.user-fonts",
             "values" : [
               {
                 "inference" : "constant",
-                "value" : "true"
+                "value" : "app-usage"
+              },
+              {
+                "inference" : "constant",
+                "value" : "system-installation"
               }
             ],
-            "valueType" : "BOOLEAN"
+            "valueType" : "ARRAY"
           }
         ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-healthkit.svg",
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-fntinstall.svg",
         "isPublic" : true,
-        "name" : "HealthKit Estimate Recalibration",
-        "sfSymbolIcon" : "health",
+        "name" : "Fonts",
+        "sfSymbolIcon" : "f.square",
         "supportedProductTypes" : [
-          "com.apple.product-type.application",
-          "com.apple.product-type.watchkit2-extension",
-          "com.apple.product-type.xpc-service"
+          "com.apple.product-type.application"
         ],
         "supportedSDKs" : [
           {
@@ -1692,9 +1535,6 @@
           },
           {
             "name" : "VISION_OS"
-          },
-          {
-            "name" : "WATCH_OS"
           }
         ],
         "validTeamTypes" : [
@@ -1702,7 +1542,132 @@
           "APPLE_DEVELOPER_PROGRAM"
         ]
       },
-      "id" : "HEALTHKIT_RECALIBRATE_ESTIMATES",
+      "id" : "FONT_INSTALLATION",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "App Attest allows you to verify that an iOS app connecting to your server is legitimate, by signing the app identity upon connection.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Ad hoc",
+            "name" : "AD_HOC"
+          },
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          },
+          {
+            "displayValue" : "App Store Connect",
+            "name" : "STORE"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "App Attest Entitlement",
+            "profileKey" : "com.apple.developer.devicecheck.appattest-environment",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "development"
+              },
+              {
+                "inference" : "constant",
+                "value" : "production"
+              }
+            ],
+            "valueType" : "DISTRIBUTION_ENV_SPECIFIC"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-app-at-test.svg",
+        "isPublic" : true,
+        "name" : "App Attest",
+        "sfSymbolIcon" : "checkmark.seal",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application",
+          "com.apple.product-type.application.on-demand-install-capable"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "TV_OS"
+          },
+          {
+            "name" : "VISION_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM"
+        ]
+      },
+      "id" : "APP_ATTEST",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "Personal VPN allows an app to create and control a custom system VPN configuration.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Ad hoc",
+            "name" : "AD_HOC"
+          },
+          {
+            "displayValue" : "Developer ID",
+            "name" : "DEVELOPER_ID"
+          },
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          },
+          {
+            "displayValue" : "App Store Connect",
+            "name" : "STORE"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "Personal VPN",
+            "profileKey" : "com.apple.developer.networking.vpn.api",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "allow-vpn"
+              }
+            ],
+            "valueType" : "ARRAY"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-vpn-lite.svg",
+        "isPublic" : true,
+        "name" : "Personal VPN",
+        "sfSymbolIcon" : "network.connected.to.line.below",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application",
+          "com.apple.product-type.xpc-service"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "MAC_OS"
+          },
+          {
+            "name" : "VISION_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM",
+          "UNIVERSITY_PROGRAM"
+        ]
+      },
+      "id" : "PERSONAL_VPN",
       "type" : "capabilities"
     },
     {
@@ -1766,7 +1731,7 @@
     },
     {
       "attributes" : {
-        "description" : "Media Device Discovery allows for the integration of 3rd party media casting protocols into iOS system UI through an application extension that handles custom protocol discovery.  ",
+        "description" : "Allows apps to use iOS system UI to display a subset of ID data for use cases that only require visual confirmation. This data request is limited to portrait, full name, age, and age over NN.",
         "distributionTypes" : [
           {
             "displayValue" : "Ad hoc",
@@ -1784,8 +1749,8 @@
         "enabledByDefault" : false,
         "entitlements" : [
           {
-            "name" : "Media Device Discovery",
-            "profileKey" : "com.apple.developer.media-device-discovery-extension",
+            "name" : "ID Verifier - Display Only",
+            "profileKey" : "com.apple.developer.proximity-reader.identity.display",
             "values" : [
               {
                 "inference" : "constant",
@@ -1795,19 +1760,12 @@
             "valueType" : "BOOLEAN"
           }
         ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-media-discovery.svg",
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-tap-to-displayId.svg",
         "isPublic" : true,
-        "name" : "Media Device Discovery",
-        "sfSymbolIcon" : "hifispeaker",
-        "supportedProductTypes" : [
-          "com.apple.product-type.xpc-service"
-        ],
+        "name" : "ID Verifier - Display Only",
         "supportedSDKs" : [
           {
             "name" : "IOS"
-          },
-          {
-            "name" : "VISION_OS"
           }
         ],
         "validTeamTypes" : [
@@ -1815,7 +1773,7 @@
           "APPLE_DEVELOPER_PROGRAM"
         ]
       },
-      "id" : "MEDIA_DEVICE_DISCOVERY",
+      "id" : "TAP_TO_DISPLAY_ID",
       "type" : "capabilities"
     },
     {
@@ -1862,6 +1820,67 @@
         ]
       },
       "id" : "DRIVERKIT_FAMILY_NETWORKING_PUB",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "Time Sensitive notifications deliver information that demand immediate attention and directly call on the individual to take action in the moment they receive them. Time Sensitive alerts are always delivered immediately, surfaced above other notifications, and allowed to break through Focus and Do Not Disturb.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Ad hoc",
+            "name" : "AD_HOC"
+          },
+          {
+            "displayValue" : "Developer ID",
+            "name" : "DEVELOPER_ID"
+          },
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          },
+          {
+            "displayValue" : "App Store Connect",
+            "name" : "STORE"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "Time Sensitive Notifications",
+            "profileKey" : "com.apple.developer.usernotifications.time-sensitive",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-timesensitive-notification.svg",
+        "isPublic" : true,
+        "name" : "Time Sensitive Notifications",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application",
+          "com.apple.product-type.watchkit2-extension"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "MAC_OS"
+          },
+          {
+            "name" : "WATCH_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM"
+        ]
+      },
+      "id" : "USERNOTIFICATIONS_TIMESENSITIVE",
       "type" : "capabilities"
     },
     {
@@ -1960,6 +1979,186 @@
     },
     {
       "attributes" : {
+        "description" : "Allows apps to send notifications for communication from a person to a person or persons.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Ad hoc",
+            "name" : "AD_HOC"
+          },
+          {
+            "displayValue" : "Developer ID",
+            "name" : "DEVELOPER_ID"
+          },
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          },
+          {
+            "displayValue" : "App Store Connect",
+            "name" : "STORE"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "Communication Notifications",
+            "profileKey" : "com.apple.developer.usernotifications.communication",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-communication-notification.svg",
+        "isPublic" : true,
+        "name" : "Communication Notifications",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application",
+          "com.apple.product-type.watchkit2-extension"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "MAC_OS"
+          },
+          {
+            "name" : "VISION_OS"
+          },
+          {
+            "name" : "WATCH_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM"
+        ]
+      },
+      "id" : "USERNOTIFICATIONS_COMMUNICATION",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "Near Field Communication (NFC) Tag Reading allows an app to read NFC tags.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Ad hoc",
+            "name" : "AD_HOC"
+          },
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          },
+          {
+            "displayValue" : "App Store Connect",
+            "name" : "STORE"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "NFC Tag Reading",
+            "profileKey" : "com.apple.developer.nfc.readersession.formats",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "NDEF"
+              },
+              {
+                "inference" : "constant",
+                "value" : "TAG"
+              },
+              {
+                "inference" : "constant",
+                "value" : "PACE"
+              }
+            ],
+            "valueType" : "ARRAY"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-nfctrmay17.svg",
+        "isPublic" : true,
+        "name" : "NFC Tag Reading",
+        "sfSymbolIcon" : "nfc",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application",
+          "com.apple.product-type.application.on-demand-install-capable"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM",
+          "UNIVERSITY_PROGRAM"
+        ]
+      },
+      "id" : "NFC_TAG_READING",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "Access Wifi Information allows an app to obtain information about the currently connected WiFi network.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Ad hoc",
+            "name" : "AD_HOC"
+          },
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          },
+          {
+            "displayValue" : "App Store Connect",
+            "name" : "STORE"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "Access Wifi Info",
+            "profileKey" : "com.apple.developer.networking.wifi-info",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/access-wifi.svg",
+        "isPublic" : true,
+        "name" : "Access Wi-Fi Information",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application",
+          "com.apple.product-type.xpc-service"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "WATCH_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM",
+          "UNIVERSITY_PROGRAM"
+        ]
+      },
+      "id" : "ACCESS_WIFI_INFORMATION",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
         "description" : "Enables an app to exceed the default app memory limit on supported devices.",
         "distributionTypes" : [
           {
@@ -2015,7 +2214,7 @@
     },
     {
       "attributes" : {
-        "description" : "DriverKit Allow Third Party UserClients",
+        "description" : "HomeKit allows users to manage connected accessories in their home using an app.",
         "distributionTypes" : [
           {
             "displayValue" : "Ad hoc",
@@ -2033,8 +2232,8 @@
         "enabledByDefault" : false,
         "entitlements" : [
           {
-            "name" : "DriverKit Allow Third Party UserClients",
-            "profileKey" : "com.apple.developer.driverkit.allow-third-party-userclients",
+            "name" : "HomeKit",
+            "profileKey" : "com.apple.developer.homekit",
             "values" : [
               {
                 "inference" : "constant",
@@ -2044,22 +2243,310 @@
             "valueType" : "BOOLEAN"
           }
         ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-driverkit.svg",
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-homekit.svg",
         "isPublic" : true,
-        "name" : "DriverKit Allow Third Party UserClients",
-        "sfSymbolIcon" : "puzzlepiece.extension",
+        "name" : "HomeKit",
+        "sfSymbolIcon" : "homekit",
         "supportedProductTypes" : [
-          "com.apple.product-type.driver-extension"
+          "com.apple.product-type.application",
+          "com.apple.product-type.xpc-service"
         ],
         "supportedSDKs" : [
           {
-            "name" : "DRIVER_KIT"
+            "name" : "IOS"
           },
+          {
+            "name" : "TV_OS"
+          },
+          {
+            "name" : "VISION_OS"
+          },
+          {
+            "name" : "WATCH_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM",
+          "UNIVERSITY_PROGRAM",
+          "XCODE_FREE_PROGRAM"
+        ]
+      },
+      "id" : "HOMEKIT",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "Enable your application or app extension to discover the current user of the device.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Ad hoc",
+            "name" : "AD_HOC"
+          },
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          },
+          {
+            "displayValue" : "App Store Connect",
+            "name" : "STORE"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "TV Services API Entitlement",
+            "profileKey" : "com.apple.developer.user-management",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "get-current-user"
+              },
+              {
+                "inference" : "constant",
+                "value" : "runs-as-current-user"
+              },
+              {
+                "inference" : "constant",
+                "value" : "runs-as-current-user-with-user-independent-keychain"
+              }
+            ],
+            "valueType" : "ARRAY"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-usermanage.svg",
+        "isPublic" : true,
+        "name" : "User Management",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application",
+          "com.apple.product-type.xpc-service"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "TV_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_PROGRAM"
+        ]
+      },
+      "id" : "USER_MANAGEMENT",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "Hotspot configurations allow an app to configure Wi-Fi networks.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Ad hoc",
+            "name" : "AD_HOC"
+          },
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          },
+          {
+            "displayValue" : "App Store Connect",
+            "name" : "STORE"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "Hotspot Configuration",
+            "profileKey" : "com.apple.developer.networking.HotspotConfiguration",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-hsc639vei8.svg",
+        "isPublic" : true,
+        "name" : "Hotspot",
+        "sfSymbolIcon" : "personalhotspot",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application",
+          "com.apple.product-type.application.on-demand-install-capable",
+          "com.apple.product-type.watchkit2-extension"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "VISION_OS"
+          },
+          {
+            "name" : "WATCH_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM",
+          "UNIVERSITY_PROGRAM"
+        ]
+      },
+      "id" : "HOT_SPOT",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "The Wireless Accessory Configuration capability allows an app to configure MFi Wi-Fi accessories.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Ad hoc",
+            "name" : "AD_HOC"
+          },
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          },
+          {
+            "displayValue" : "App Store Connect",
+            "name" : "STORE"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "Wireless Accessory Configuration",
+            "profileKey" : "com.apple.external-accessory.wireless-configuration",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-wireless-accessory.svg",
+        "isPublic" : true,
+        "name" : "Wireless Accessory Configuration",
+        "sfSymbolIcon" : "wifi.circle",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application",
+          "com.apple.product-type.xpc-service"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM",
+          "UNIVERSITY_PROGRAM",
+          "XCODE_FREE_PROGRAM"
+        ]
+      },
+      "id" : "WIRELESS_ACCESSORY_CONFIGURATION",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "Allow 3rd party applications to claim links shared in Messages conversation and to then be surfaced to them via the Shared with You Framework",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Ad hoc",
+            "name" : "AD_HOC"
+          },
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          },
+          {
+            "displayValue" : "App Store Connect",
+            "name" : "STORE"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "Shared with You entitlement",
+            "profileKey" : "com.apple.developer.shared-with-you",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-shared-with-you.svg",
+        "isPublic" : true,
+        "name" : "Shared with You",
+        "sfSymbolIcon" : "shared.with.you",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application"
+        ],
+        "supportedSDKs" : [
           {
             "name" : "IOS"
           },
           {
             "name" : "MAC_OS"
+          },
+          {
+            "name" : "VISION_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_PROGRAM"
+        ]
+      },
+      "id" : "SHARED_WITH_YOU",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "Media Device Discovery allows for the integration of 3rd party media casting protocols into iOS system UI through an application extension that handles custom protocol discovery.  ",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Ad hoc",
+            "name" : "AD_HOC"
+          },
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          },
+          {
+            "displayValue" : "App Store Connect",
+            "name" : "STORE"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "Media Device Discovery",
+            "profileKey" : "com.apple.developer.media-device-discovery-extension",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-media-discovery.svg",
+        "isPublic" : true,
+        "name" : "Media Device Discovery",
+        "sfSymbolIcon" : "hifispeaker",
+        "supportedProductTypes" : [
+          "com.apple.product-type.xpc-service"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "VISION_OS"
           }
         ],
         "validTeamTypes" : [
@@ -2067,7 +2554,97 @@
           "APPLE_DEVELOPER_PROGRAM"
         ]
       },
-      "id" : "DRIVERKIT_ALLOWTHIRDPARTY_USERCLIENTS",
+      "id" : "MEDIA_DEVICE_DISCOVERY",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "The Siri capability allows an app to handle Siri requests.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Ad hoc",
+            "name" : "AD_HOC"
+          },
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          },
+          {
+            "displayValue" : "App Store Connect",
+            "name" : "STORE"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "Siri",
+            "profileKey" : "com.apple.developer.siri",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-rhsvud.svg",
+        "isPublic" : true,
+        "name" : "Siri",
+        "sfSymbolIcon" : "siri",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application",
+          "com.apple.product-type.watchkit2-extension"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "TV_OS"
+          },
+          {
+            "name" : "VISION_OS"
+          },
+          {
+            "name" : "WATCH_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM",
+          "UNIVERSITY_PROGRAM"
+        ]
+      },
+      "id" : "SIRIKIT",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "In-App Purchase",
+        "enabledByDefault" : true,
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-in-app-purchase.svg",
+        "isPublic" : true,
+        "name" : "In-App Purchase",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application",
+          "com.apple.product-type.watchkit2-extension"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "WATCH_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM",
+          "UNIVERSITY_PROGRAM"
+        ]
+      },
+      "id" : "IN_APP_PURCHASE",
       "type" : "capabilities"
     },
     {
@@ -2128,56 +2705,70 @@
     },
     {
       "attributes" : {
-        "description" : "DriverKit Family Audio (development)",
+        "description" : "Capability to migrate apps to macOS platform",
         "distributionTypes" : [
+          {
+            "displayValue" : "Developer ID",
+            "name" : "DEVELOPER_ID"
+          },
           {
             "displayValue" : "Development",
             "name" : "DEVELOPMENT"
+          },
+          {
+            "displayValue" : "App Store Connect",
+            "name" : "STORE"
           }
         ],
         "enabledByDefault" : false,
         "entitlements" : [
           {
-            "name" : "DriverKit Family Audio (development)",
-            "profileKey" : "com.apple.developer.driverkit.family.audio",
+            "name" : "App Identifier Entitlement for Marzipan profiles",
+            "profileKey" : "com.apple.developer.associated-application-identifier",
             "values" : [
               {
                 "inference" : "constant",
-                "value" : "true"
+                "value" : "${bundle.seedId}.${bundle.identifier}"
               }
             ],
-            "valueType" : "BOOLEAN"
+            "valueType" : "ARRAY"
           }
         ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-driverkit.svg",
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-macbookair.svg",
         "isPublic" : true,
-        "name" : "DriverKit Family Audio (development)",
-        "sfSymbolIcon" : "puzzlepiece.extension",
-        "supportedProductTypes" : [
-          "com.apple.product-type.driver-extension"
+        "name" : "Mac Catalyst",
+        "settings" : [
+          {
+            "key" : "MARZIPAN_APP_SETUP",
+            "options" : [
+              {
+                "enabledByDefault" : true,
+                "key" : "USE_IOS_APPID"
+              },
+              {
+                "enabledByDefault" : false,
+                "key" : "USE_MACOS_APPID"
+              }
+            ]
+          }
         ],
         "supportedSDKs" : [
-          {
-            "name" : "DRIVER_KIT"
-          },
-          {
-            "name" : "IOS"
-          },
           {
             "name" : "MAC_OS"
           }
         ],
         "validTeamTypes" : [
           "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM"
+          "APPLE_DEVELOPER_PROGRAM",
+          "XCODE_FREE_PROGRAM"
         ]
       },
-      "id" : "DRIVERKIT_FAMILY_AUDIO_PUB",
+      "id" : "ENABLED_FOR_MAC",
       "type" : "capabilities"
     },
     {
       "attributes" : {
-        "description" : "Enable your customers to authenticate in your application with their Apple ID.",
+        "description" : "Game Center allows players to connect to the Game Center service, enabling them to interact with their friends, view leader boards, or play head to head in your game.",
         "distributionTypes" : [
           {
             "displayValue" : "Ad hoc",
@@ -2195,36 +2786,21 @@
         "enabledByDefault" : false,
         "entitlements" : [
           {
-            "name" : "Apple ID Sign-In Entitlement",
-            "profileKey" : "com.apple.developer.applesignin",
+            "name" : "macOS",
+            "profileKey" : "com.apple.developer.game-center",
             "values" : [
               {
                 "inference" : "constant",
-                "value" : "Default"
+                "value" : "true"
               }
             ],
-            "valueType" : "ARRAY"
+            "valueType" : "BOOLEAN"
           }
         ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-applsignin.svg",
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-game-center.svg",
         "isPublic" : true,
-        "name" : "Sign In with Apple",
-        "settings" : [
-          {
-            "key" : "TIBURON_APP_CONSENT",
-            "options" : [
-              {
-                "enabledByDefault" : true,
-                "key" : "PRIMARY_APP_CONSENT"
-              },
-              {
-                "enabledByDefault" : false,
-                "key" : "RELATED_APP_CONSENT"
-              }
-            ]
-          }
-        ],
-        "sfSymbolIcon" : "person.crop.circle",
+        "name" : "Game Center",
+        "sfSymbolIcon" : "gamecenter",
         "supportedProductTypes" : [
           "com.apple.product-type.application",
           "com.apple.product-type.application.on-demand-install-capable",
@@ -2248,10 +2824,13 @@
           }
         ],
         "validTeamTypes" : [
-          "APPLE_DEVELOPER_PROGRAM"
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM",
+          "UNIVERSITY_PROGRAM",
+          "XCODE_FREE_PROGRAM"
         ]
       },
-      "id" : "APPLE_ID_AUTH",
+      "id" : "GAME_CENTER",
       "type" : "capabilities"
     },
     {
@@ -2393,7 +2972,7 @@
     },
     {
       "attributes" : {
-        "description" : "Allows apps to send notifications for communication from a person to a person or persons.",
+        "description" : "The network extensions capability allows app extensions to extend and customize the networking capabilities of a device.",
         "distributionTypes" : [
           {
             "displayValue" : "Ad hoc",
@@ -2415,23 +2994,75 @@
         "enabledByDefault" : false,
         "entitlements" : [
           {
-            "name" : "Communication Notifications",
-            "profileKey" : "com.apple.developer.usernotifications.communication",
+            "name" : "Network Extensions",
+            "profileKey" : "com.apple.developer.networking.networkextension",
             "values" : [
               {
                 "inference" : "constant",
-                "value" : "true"
+                "value" : "app-proxy-provider"
+              },
+              {
+                "inference" : "constant",
+                "value" : "content-filter-provider"
+              },
+              {
+                "inference" : "constant",
+                "value" : "packet-tunnel-provider"
+              },
+              {
+                "inference" : "constant",
+                "value" : "dns-proxy"
+              },
+              {
+                "inference" : "constant",
+                "value" : "dns-settings"
+              },
+              {
+                "inference" : "constant",
+                "value" : "relay"
               }
             ],
-            "valueType" : "BOOLEAN"
+            "valueType" : "ARRAY"
+          },
+          {
+            "name" : "Network Extensions direct distribution",
+            "profileKey" : "com.apple.developer.networking.networkextension",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "packet-tunnel-provider-systemextension"
+              },
+              {
+                "inference" : "constant",
+                "value" : "app-proxy-provider-systemextension"
+              },
+              {
+                "inference" : "constant",
+                "value" : "content-filter-provider-systemextension"
+              },
+              {
+                "inference" : "constant",
+                "value" : "dns-proxy-systemextension"
+              },
+              {
+                "inference" : "constant",
+                "value" : "dns-settings"
+              },
+              {
+                "inference" : "constant",
+                "value" : "relay"
+              }
+            ],
+            "valueType" : "ARRAY"
           }
         ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-communication-notification.svg",
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-nwext04537.svg",
         "isPublic" : true,
-        "name" : "Communication Notifications",
+        "name" : "Network Extensions",
         "supportedProductTypes" : [
           "com.apple.product-type.application",
-          "com.apple.product-type.watchkit2-extension"
+          "com.apple.product-type.system-extension",
+          "com.apple.product-type.xpc-service"
         ],
         "supportedSDKs" : [
           {
@@ -2441,23 +3072,24 @@
             "name" : "MAC_OS"
           },
           {
-            "name" : "VISION_OS"
+            "name" : "TV_OS"
           },
           {
-            "name" : "WATCH_OS"
+            "name" : "VISION_OS"
           }
         ],
         "validTeamTypes" : [
           "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM"
+          "APPLE_DEVELOPER_PROGRAM",
+          "UNIVERSITY_PROGRAM"
         ]
       },
-      "id" : "USERNOTIFICATIONS_COMMUNICATION",
+      "id" : "NETWORK_EXTENSIONS",
       "type" : "capabilities"
     },
     {
       "attributes" : {
-        "description" : "Allow 3rd party applications to claim links shared in Messages conversation and to then be surfaced to them via the Shared with You Framework",
+        "description" : "Multipath allows an app to use Multipath protocols like Multipath TCP, which seamlessly hands over traffic from one interface to another.",
         "distributionTypes" : [
           {
             "displayValue" : "Ad hoc",
@@ -2475,8 +3107,8 @@
         "enabledByDefault" : false,
         "entitlements" : [
           {
-            "name" : "Shared with You entitlement",
-            "profileKey" : "com.apple.developer.shared-with-you",
+            "name" : "Multipath",
+            "profileKey" : "com.apple.developer.networking.multipath",
             "values" : [
               {
                 "inference" : "constant",
@@ -2486,70 +3118,70 @@
             "valueType" : "BOOLEAN"
           }
         ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-shared-with-you.svg",
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-mp49fn762p.svg",
         "isPublic" : true,
-        "name" : "Shared with You",
-        "sfSymbolIcon" : "shared.with.you",
+        "name" : "Multipath",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application",
+          "com.apple.product-type.application.on-demand-install-capable"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "VISION_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM",
+          "UNIVERSITY_PROGRAM"
+        ]
+      },
+      "id" : "MULTIPATH",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "Enables your app to report Push to Talk channels to the system so that it can handle transmitting and receiving audio in the background",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Ad hoc",
+            "name" : "AD_HOC"
+          },
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          },
+          {
+            "displayValue" : "App Store Connect",
+            "name" : "STORE"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "Push to Talk",
+            "profileKey" : "com.apple.developer.push-to-talk",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-push-to-talk.svg",
+        "isPublic" : true,
+        "name" : "Push to Talk",
         "supportedProductTypes" : [
           "com.apple.product-type.application"
         ],
         "supportedSDKs" : [
           {
             "name" : "IOS"
-          },
-          {
-            "name" : "MAC_OS"
-          },
-          {
-            "name" : "VISION_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_PROGRAM"
-        ]
-      },
-      "id" : "SHARED_WITH_YOU",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "A Boolean value that indicates whether your extension has permission to run as a user-space driver. This is a development only entitlement.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "DriverKit for Development entitlement",
-            "profileKey" : "com.apple.developer.driverkit",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-driverkit.svg",
-        "isPublic" : true,
-        "name" : "DriverKit (development)",
-        "sfSymbolIcon" : "puzzlepiece.extension",
-        "supportedProductTypes" : [
-          "com.apple.product-type.driver-extension"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "DRIVER_KIT"
-          },
-          {
-            "name" : "IOS"
-          },
-          {
-            "name" : "MAC_OS"
           }
         ],
         "validTeamTypes" : [
@@ -2557,57 +3189,7 @@
           "APPLE_DEVELOPER_PROGRAM"
         ]
       },
-      "id" : "DRIVERKIT_PUBLIC",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "Sensitive Content Analysis allows an app to detect sensitive images and videos that contain nudity on-device for the intended purposes of allowing users to choose to view the photo before showing it to them, or a heavier weight intervention.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Ad hoc",
-            "name" : "AD_HOC"
-          },
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          },
-          {
-            "displayValue" : "App Store Connect",
-            "name" : "STORE"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "Sensitive Content Analysis",
-            "profileKey" : "com.apple.developer.sensitivecontentanalysis.client",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "analysis"
-              }
-            ],
-            "valueType" : "ARRAY"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-sensitive-content-analysis.svg",
-        "isPublic" : true,
-        "name" : "Sensitive Content Analysis",
-        "sfSymbolIcon" : "bubble.left.and.exclamationmark.bubble.right",
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          },
-          {
-            "name" : "MAC_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_PROGRAM"
-        ]
-      },
-      "id" : "SENSITIVE_CONTENT_ANALYSIS",
+      "id" : "PUSH_TO_TALK",
       "type" : "capabilities"
     },
     {
@@ -2678,6 +3260,220 @@
     },
     {
       "attributes" : {
+        "description" : "WeatherKit provides current and forecasted weather information.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Ad hoc",
+            "name" : "AD_HOC"
+          },
+          {
+            "displayValue" : "Developer ID",
+            "name" : "DEVELOPER_ID"
+          },
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          },
+          {
+            "displayValue" : "App Store Connect",
+            "name" : "STORE"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "WeatherKit",
+            "profileKey" : "com.apple.developer.weatherkit",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-weatherkit.svg",
+        "isPublic" : true,
+        "name" : "WeatherKit",
+        "sfSymbolIcon" : "cloud.sun",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application",
+          "com.apple.product-type.xpc-service"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "MAC_OS"
+          },
+          {
+            "name" : "TV_OS"
+          },
+          {
+            "name" : "VISION_OS"
+          },
+          {
+            "name" : "WATCH_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM"
+        ]
+      },
+      "id" : "WEATHERKIT",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "Enable your customers to authenticate in your application with their Apple ID.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Ad hoc",
+            "name" : "AD_HOC"
+          },
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          },
+          {
+            "displayValue" : "App Store Connect",
+            "name" : "STORE"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "Apple ID Sign-In Entitlement",
+            "profileKey" : "com.apple.developer.applesignin",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "Default"
+              }
+            ],
+            "valueType" : "ARRAY"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-applsignin.svg",
+        "isPublic" : true,
+        "name" : "Sign In with Apple",
+        "settings" : [
+          {
+            "key" : "TIBURON_APP_CONSENT",
+            "options" : [
+              {
+                "enabledByDefault" : true,
+                "key" : "PRIMARY_APP_CONSENT"
+              },
+              {
+                "enabledByDefault" : false,
+                "key" : "RELATED_APP_CONSENT"
+              }
+            ]
+          }
+        ],
+        "sfSymbolIcon" : "person.crop.circle",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application",
+          "com.apple.product-type.application.on-demand-install-capable",
+          "com.apple.product-type.xpc-service"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "MAC_OS"
+          },
+          {
+            "name" : "TV_OS"
+          },
+          {
+            "name" : "VISION_OS"
+          },
+          {
+            "name" : "WATCH_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_PROGRAM"
+        ]
+      },
+      "id" : "APPLE_ID_AUTH",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "Allows 3rd party developers to be able to pass in the setup code information to pair Matter accessories to their ecosystem or Apple Home without having to scan a QRCode.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Ad hoc",
+            "name" : "AD_HOC"
+          },
+          {
+            "displayValue" : "Developer ID",
+            "name" : "DEVELOPER_ID"
+          },
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          },
+          {
+            "displayValue" : "App Store Connect",
+            "name" : "STORE"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "Matter Allow Setup Payload",
+            "profileKey" : "com.apple.developer.matter.allow-setup-payload",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-matter-allow-setup-payload.svg",
+        "isPublic" : true,
+        "name" : "Matter Allow Setup Payload",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application",
+          "com.apple.product-type.xpc-service"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "MAC_OS"
+          },
+          {
+            "name" : "TV_OS"
+          },
+          {
+            "name" : "VISION_OS"
+          },
+          {
+            "name" : "WATCH_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM"
+        ]
+      },
+      "id" : "MATTER_ALLOW_SETUP_PAYLOAD",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
         "description" : "The AutoFill credential provider allows an app to provide user names and passwords for AutoFill in Safari and other apps, with user permission.",
         "distributionTypes" : [
           {
@@ -2738,1128 +3534,6 @@
         ]
       },
       "id" : "AUTOFILL_CREDENTIAL_PROVIDER",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "Enabling Extended Virtual Addressing allows you to use more address space in your app.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Ad hoc",
-            "name" : "AD_HOC"
-          },
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          },
-          {
-            "displayValue" : "App Store Connect",
-            "name" : "STORE"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "Extended Virtual Address Space Entitlement",
-            "profileKey" : "com.apple.developer.kernel.extended-virtual-addressing",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-extenvaddr.svg",
-        "isPublic" : true,
-        "name" : "Extended Virtual Addressing",
-        "sfSymbolIcon" : "memorychip",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          },
-          {
-            "name" : "TV_OS"
-          },
-          {
-            "name" : "VISION_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM"
-        ]
-      },
-      "id" : "EXTENDED_VIRTUAL_ADDRESSING",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "Allows apps to use iOS system UI to display a subset of ID data for use cases that only require visual confirmation. This data request is limited to portrait, full name, age, and age over NN.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Ad hoc",
-            "name" : "AD_HOC"
-          },
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          },
-          {
-            "displayValue" : "App Store Connect",
-            "name" : "STORE"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "ID Verifier - Display Only",
-            "profileKey" : "com.apple.developer.proximity-reader.identity.display",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-tap-to-displayId.svg",
-        "isPublic" : true,
-        "name" : "ID Verifier - Display Only",
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM"
-        ]
-      },
-      "id" : "TAP_TO_DISPLAY_ID",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "DriverKit Communicates with Drivers\n",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Ad hoc",
-            "name" : "AD_HOC"
-          },
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          },
-          {
-            "displayValue" : "App Store Connect",
-            "name" : "STORE"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "Communicates with Drivers entitlement",
-            "profileKey" : "com.apple.developer.driverkit.communicates-with-drivers",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-driverkit.svg",
-        "isPublic" : true,
-        "name" : "DriverKit Communicates with Drivers",
-        "sfSymbolIcon" : "puzzlepiece.extension",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM"
-        ]
-      },
-      "id" : "DRIVERKIT_COMMUNICATESWITHDRIVERS",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "Sustained Execution indicates whether your app can exhibit consistent, sustained performance when the system constrains the app to lower power levels on applicable devices.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Ad hoc",
-            "name" : "AD_HOC"
-          },
-          {
-            "displayValue" : "Developer ID",
-            "name" : "DEVELOPER_ID"
-          },
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          },
-          {
-            "displayValue" : "App Store Connect",
-            "name" : "STORE"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "Sustained Execution",
-            "profileKey" : "com.apple.developer.sustained-execution",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-sustained-execution.svg",
-        "isPublic" : true,
-        "name" : "Sustained Execution",
-        "sfSymbolIcon" : "gauge.with.dots.needle.67percent",
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          },
-          {
-            "name" : "MAC_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM"
-        ]
-      },
-      "id" : "SUSTAINED_EXECUTION",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "Allows MDM to supplement the Associated Domains that are included with your app with values such as server names that are unique for an environment.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Ad hoc",
-            "name" : "AD_HOC"
-          },
-          {
-            "displayValue" : "Developer ID",
-            "name" : "DEVELOPER_ID"
-          },
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          },
-          {
-            "displayValue" : "App Store Connect",
-            "name" : "STORE"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "MDM Managed Associated Domains Entitlement",
-            "profileKey" : "com.apple.developer.associated-domains.mdm-managed",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-mdm.svg",
-        "isPublic" : true,
-        "name" : "MDM Managed Associated Domains",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          },
-          {
-            "name" : "MAC_OS"
-          },
-          {
-            "name" : "TV_OS"
-          },
-          {
-            "name" : "VISION_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM"
-        ]
-      },
-      "id" : "MDM_MANAGED_ASSOCIATED_DOMAINS",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "Apple Pay Later Merchandising allows an app to message the availability and benefits of Apple Pay Later by displaying the Apple Pay Later visual merchandising widget.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Ad hoc",
-            "name" : "AD_HOC"
-          },
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          },
-          {
-            "displayValue" : "App Store Connect",
-            "name" : "STORE"
-          }
-        ],
-        "enabledByDefault" : false,
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-applepay-later.svg",
-        "isPublic" : true,
-        "name" : "Apple Pay Later Merchandising",
-        "settings" : [
-          {
-            "key" : "Q3ZWTV5HST",
-            "options" : [
-              {
-                "enabledByDefault" : true,
-                "entitlements" : [
-                  {
-                    "name" : "Apple Pay Later Merchandising (Opt-In)",
-                    "profileKey" : "com.apple.developer.pay-later-merchandising",
-                    "values" : [
-                      {
-                        "inference" : "constant",
-                        "value" : "payinfour-merchandising"
-                      }
-                    ],
-                    "valueType" : "ARRAY"
-                  }
-                ],
-                "key" : "63576NA22B"
-              }
-            ]
-          }
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_PROGRAM"
-        ]
-      },
-      "id" : "APPLE_PAY_LATER_MERCHANDISING",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "In-App Purchase",
-        "enabledByDefault" : true,
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-in-app-purchase.svg",
-        "isPublic" : true,
-        "name" : "In-App Purchase",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application",
-          "com.apple.product-type.watchkit2-extension"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          },
-          {
-            "name" : "WATCH_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM",
-          "UNIVERSITY_PROGRAM"
-        ]
-      },
-      "id" : "IN_APP_PURCHASE",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "VMNet indicates whether the app manages virtual network interfaces without escalating privileges to the root user.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Ad hoc",
-            "name" : "AD_HOC"
-          },
-          {
-            "displayValue" : "Developer ID",
-            "name" : "DEVELOPER_ID"
-          },
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          },
-          {
-            "displayValue" : "App Store Connect",
-            "name" : "STORE"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "VMNet",
-            "profileKey" : "com.apple.developer.networking.vmnet",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-vmnet.svg",
-        "isPublic" : true,
-        "name" : "VMNet",
-        "sfSymbolIcon" : "square.grid.3x3.middle.filled",
-        "supportedSDKs" : [
-          {
-            "name" : "MAC_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM"
-        ]
-      },
-      "id" : "VMNET",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "Multipath allows an app to use Multipath protocols like Multipath TCP, which seamlessly hands over traffic from one interface to another.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Ad hoc",
-            "name" : "AD_HOC"
-          },
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          },
-          {
-            "displayValue" : "App Store Connect",
-            "name" : "STORE"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "Multipath",
-            "profileKey" : "com.apple.developer.networking.multipath",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-mp49fn762p.svg",
-        "isPublic" : true,
-        "name" : "Multipath",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application",
-          "com.apple.product-type.application.on-demand-install-capable"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          },
-          {
-            "name" : "VISION_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM",
-          "UNIVERSITY_PROGRAM"
-        ]
-      },
-      "id" : "MULTIPATH",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "DriverKit Transport HID for development",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "DriverKit Transport HID (development)",
-            "profileKey" : "com.apple.developer.driverkit.transport.hid",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-driverkit.svg",
-        "isPublic" : true,
-        "name" : "DriverKit Transport HID (development)",
-        "sfSymbolIcon" : "puzzlepiece.extension",
-        "supportedProductTypes" : [
-          "com.apple.product-type.driver-extension"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "DRIVER_KIT"
-          },
-          {
-            "name" : "MAC_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM"
-        ]
-      },
-      "id" : "DRIVERKIT_TRANSPORT_HID_PUB",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "Associated domains allow an app to be associated with a domain for specific services such as accessing Safari saved passwords and activity continuation.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Ad hoc",
-            "name" : "AD_HOC"
-          },
-          {
-            "displayValue" : "Developer ID",
-            "name" : "DEVELOPER_ID"
-          },
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          },
-          {
-            "displayValue" : "App Store Connect",
-            "name" : "STORE"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "Associated Domains",
-            "profileKey" : "com.apple.developer.associated-domains",
-            "values" : [
-              {
-                "inference" : "wildcard",
-                "value" : "*"
-              }
-            ],
-            "valueType" : "STRING"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-associated-domains.svg",
-        "isPublic" : true,
-        "name" : "Associated Domains",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application",
-          "com.apple.product-type.application.on-demand-install-capable",
-          "com.apple.product-type.xpc-service"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          },
-          {
-            "name" : "MAC_OS"
-          },
-          {
-            "name" : "TV_OS"
-          },
-          {
-            "name" : "VISION_OS"
-          },
-          {
-            "name" : "WATCH_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM",
-          "UNIVERSITY_PROGRAM"
-        ]
-      },
-      "id" : "ASSOCIATED_DOMAINS",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "Enables an app to interact with a local thread network to access and manage credentials to interact with hardware on the network.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "Manage Thread Network Credentials (Development)",
-            "profileKey" : "com.apple.developer.networking.manage-thread-network-credentials",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-network-credentials.svg",
-        "isPublic" : true,
-        "name" : "Manage Thread Network Credentials (development)",
-        "sfSymbolIcon" : "network",
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM"
-        ]
-      },
-      "id" : "DEV_MANAGE_THREAD_NETWORK_CREDENTIALS",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "DriverKit Family HID Device for development",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "DriverKit Family HID Device (development)",
-            "profileKey" : "com.apple.developer.driverkit.family.hid.device",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-driverkit.svg",
-        "isPublic" : true,
-        "name" : "DriverKit Family HID Device (development)",
-        "sfSymbolIcon" : "puzzlepiece.extension",
-        "supportedProductTypes" : [
-          "com.apple.product-type.driver-extension"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "DRIVER_KIT"
-          },
-          {
-            "name" : "MAC_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM"
-        ]
-      },
-      "id" : "DRIVERKIT_FAMILY_HIDDEVICE_PUB",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "DriverKit USB Transport (development)",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "DriverKit USB Transport (development)",
-            "profileKey" : "com.apple.developer.driverkit.transport.usb",
-            "values" : [
-
-            ]
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-driverkit.svg",
-        "isPublic" : true,
-        "name" : "DriverKit USB Transport (development)",
-        "sfSymbolIcon" : "puzzlepiece.extension",
-        "supportedProductTypes" : [
-          "com.apple.product-type.driver-extension"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "DRIVER_KIT"
-          },
-          {
-            "name" : "IOS"
-          },
-          {
-            "name" : "MAC_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM"
-        ]
-      },
-      "id" : "DRIVERKIT_USBTRANSPORT_PUB",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "HomeKit allows users to manage connected accessories in their home using an app.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Ad hoc",
-            "name" : "AD_HOC"
-          },
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          },
-          {
-            "displayValue" : "App Store Connect",
-            "name" : "STORE"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "HomeKit",
-            "profileKey" : "com.apple.developer.homekit",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-homekit.svg",
-        "isPublic" : true,
-        "name" : "HomeKit",
-        "sfSymbolIcon" : "homekit",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application",
-          "com.apple.product-type.xpc-service"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          },
-          {
-            "name" : "TV_OS"
-          },
-          {
-            "name" : "VISION_OS"
-          },
-          {
-            "name" : "WATCH_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM",
-          "UNIVERSITY_PROGRAM",
-          "XCODE_FREE_PROGRAM"
-        ]
-      },
-      "id" : "HOMEKIT",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "Enabling System Extension enables your app to install associated extensins.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Ad hoc",
-            "name" : "AD_HOC"
-          },
-          {
-            "displayValue" : "Developer ID",
-            "name" : "DEVELOPER_ID"
-          },
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          },
-          {
-            "displayValue" : "App Store Connect",
-            "name" : "STORE"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "System Extension Entitlement",
-            "profileKey" : "com.apple.developer.system-extension.install",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-systemext.svg",
-        "isPublic" : true,
-        "name" : "System Extension",
-        "sfSymbolIcon" : "puzzlepiece.extension",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "MAC_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM"
-        ]
-      },
-      "id" : "SYSTEM_EXTENSION_INSTALL",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "App groups gives multiple apps access to shared containers and allows certain additional communication between the apps.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Ad hoc",
-            "name" : "AD_HOC"
-          },
-          {
-            "displayValue" : "Developer ID",
-            "name" : "DEVELOPER_ID"
-          },
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          },
-          {
-            "displayValue" : "App Store Connect",
-            "name" : "STORE"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "Application Groups entitlement",
-            "profileKey" : "com.apple.security.application-groups",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "${applicationGroupBundle.specialIdentifier.identifier}"
-              }
-            ],
-            "valueType" : "ARRAY"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-app-groups.svg",
-        "isPublic" : true,
-        "name" : "App Groups",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application",
-          "com.apple.product-type.application.on-demand-install-capable",
-          "com.apple.product-type.application.watchapp2",
-          "com.apple.product-type.system-extension",
-          "com.apple.product-type.xpc-service"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          },
-          {
-            "name" : "TV_OS"
-          },
-          {
-            "name" : "VISION_OS"
-          },
-          {
-            "name" : "WATCH_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM",
-          "UNIVERSITY_PROGRAM",
-          "XCODE_FREE_PROGRAM"
-        ]
-      },
-      "id" : "APP_GROUPS",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "\nEnable a test-only mode where developers can control the timing of operations in fileproviderd, in order to programmatically hit all the possible orderings in what is otherwise a blackbox.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Ad hoc",
-            "name" : "AD_HOC"
-          },
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "FileProvider TestingMode",
-            "profileKey" : "com.apple.developer.fileprovider.testing-mode",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-file-provider.svg",
-        "isPublic" : true,
-        "name" : "FileProvider Testing Mode",
-        "sfSymbolIcon" : "doc.badge.gearshape",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application",
-          "com.apple.product-type.xpc-service"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          },
-          {
-            "name" : "MAC_OS"
-          },
-          {
-            "name" : "VISION_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM"
-        ]
-      },
-      "id" : "FILEPROVIDER_TESTINGMODE",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "DriverKit Family Serial for development",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "DriverKit Family Serial (development)",
-            "profileKey" : "com.apple.developer.driverkit.family.serial",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "true"
-              }
-            ],
-            "valueType" : "BOOLEAN"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-driverkit.svg",
-        "isPublic" : true,
-        "name" : "DriverKit Family Serial (development)",
-        "sfSymbolIcon" : "puzzlepiece.extension",
-        "supportedProductTypes" : [
-          "com.apple.product-type.driver-extension"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "DRIVER_KIT"
-          },
-          {
-            "name" : "MAC_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM"
-        ]
-      },
-      "id" : "DRIVERKIT_FAMILY_SERIAL_PUB",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "Near Field Communication (NFC) Tag Reading allows an app to read NFC tags.",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Ad hoc",
-            "name" : "AD_HOC"
-          },
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          },
-          {
-            "displayValue" : "App Store Connect",
-            "name" : "STORE"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "NFC Tag Reading",
-            "profileKey" : "com.apple.developer.nfc.readersession.formats",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "NDEF"
-              },
-              {
-                "inference" : "constant",
-                "value" : "TAG"
-              },
-              {
-                "inference" : "constant",
-                "value" : "PACE"
-              }
-            ],
-            "valueType" : "ARRAY"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-nfctrmay17.svg",
-        "isPublic" : true,
-        "name" : "NFC Tag Reading",
-        "sfSymbolIcon" : "nfc",
-        "supportedProductTypes" : [
-          "com.apple.product-type.application",
-          "com.apple.product-type.application.on-demand-install-capable"
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "IOS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM",
-          "UNIVERSITY_PROGRAM"
-        ]
-      },
-      "id" : "NFC_TAG_READING",
-      "type" : "capabilities"
-    },
-    {
-      "attributes" : {
-        "description" : "Capability to migrate apps to macOS platform",
-        "distributionTypes" : [
-          {
-            "displayValue" : "Developer ID",
-            "name" : "DEVELOPER_ID"
-          },
-          {
-            "displayValue" : "Development",
-            "name" : "DEVELOPMENT"
-          },
-          {
-            "displayValue" : "App Store Connect",
-            "name" : "STORE"
-          }
-        ],
-        "enabledByDefault" : false,
-        "entitlements" : [
-          {
-            "name" : "App Identifier Entitlement for Marzipan profiles",
-            "profileKey" : "com.apple.developer.associated-application-identifier",
-            "values" : [
-              {
-                "inference" : "constant",
-                "value" : "${bundle.seedId}.${bundle.identifier}"
-              }
-            ],
-            "valueType" : "ARRAY"
-          }
-        ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-macbookair.svg",
-        "isPublic" : true,
-        "name" : "Mac Catalyst",
-        "settings" : [
-          {
-            "key" : "MARZIPAN_APP_SETUP",
-            "options" : [
-              {
-                "enabledByDefault" : true,
-                "key" : "USE_IOS_APPID"
-              },
-              {
-                "enabledByDefault" : false,
-                "key" : "USE_MACOS_APPID"
-              }
-            ]
-          }
-        ],
-        "supportedSDKs" : [
-          {
-            "name" : "MAC_OS"
-          }
-        ],
-        "validTeamTypes" : [
-          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM",
-          "XCODE_FREE_PROGRAM"
-        ]
-      },
-      "id" : "ENABLED_FOR_MAC",
       "type" : "capabilities"
     },
     {
@@ -3973,7 +3647,7 @@
     },
     {
       "attributes" : {
-        "description" : "DriverKit Family HID EventService for development",
+        "description" : "DriverKit Family Audio (development)",
         "distributionTypes" : [
           {
             "displayValue" : "Development",
@@ -3983,8 +3657,8 @@
         "enabledByDefault" : false,
         "entitlements" : [
           {
-            "name" : "DriverKit Family HID EventService (development)",
-            "profileKey" : "com.apple.developer.driverkit.family.hid.eventservice",
+            "name" : "DriverKit Family Audio (development)",
+            "profileKey" : "com.apple.developer.driverkit.family.audio",
             "values" : [
               {
                 "inference" : "constant",
@@ -3996,7 +3670,7 @@
         ],
         "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-driverkit.svg",
         "isPublic" : true,
-        "name" : "DriverKit Family HID EventService (development)",
+        "name" : "DriverKit Family Audio (development)",
         "sfSymbolIcon" : "puzzlepiece.extension",
         "supportedProductTypes" : [
           "com.apple.product-type.driver-extension"
@@ -4004,6 +3678,9 @@
         "supportedSDKs" : [
           {
             "name" : "DRIVER_KIT"
+          },
+          {
+            "name" : "IOS"
           },
           {
             "name" : "MAC_OS"
@@ -4014,7 +3691,7 @@
           "APPLE_DEVELOPER_PROGRAM"
         ]
       },
-      "id" : "DRIVERKIT_FAMILY_HIDEVENTSERVICE_PUB",
+      "id" : "DRIVERKIT_FAMILY_AUDIO_PUB",
       "type" : "capabilities"
     },
     {
@@ -4065,8 +3742,12 @@
     },
     {
       "attributes" : {
-        "description" : "The MapKit framework provides an interface for embedding maps directly into your own windows and views of your app.",
+        "description" : "Apple Pay provides an easy and secure way for users to pay in an iOS app, watchOS app, and website on Safari.",
         "distributionTypes" : [
+          {
+            "displayValue" : "Ad hoc",
+            "name" : "AD_HOC"
+          },
           {
             "displayValue" : "Developer ID",
             "name" : "DEVELOPER_ID"
@@ -4083,8 +3764,61 @@
         "enabledByDefault" : false,
         "entitlements" : [
           {
-            "name" : "Maps",
-            "profileKey" : "com.apple.developer.maps",
+            "name" : "Apple Pay Payment Processing entitlement",
+            "profileKey" : "com.apple.developer.in-app-payments",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "${applePayBundle.specialIdentifier.identifier}"
+              }
+            ],
+            "valueType" : "ARRAY"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-apple-pay.svg",
+        "isPublic" : true,
+        "name" : "Apple Pay Payment Processing",
+        "sfSymbolIcon" : "creditcard",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application",
+          "com.apple.product-type.application.on-demand-install-capable",
+          "com.apple.product-type.xpc-service"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "MAC_OS"
+          },
+          {
+            "name" : "VISION_OS"
+          },
+          {
+            "name" : "WATCH_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_PROGRAM"
+        ]
+      },
+      "id" : "APPLE_PAY",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "Family Controls enables your app for parental controls, granting access to the Managed Settings and Device Activity frameworks in the Screen Time API. ",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "Family Controls",
+            "profileKey" : "com.apple.developer.family-controls",
             "values" : [
               {
                 "inference" : "constant",
@@ -4094,26 +3828,292 @@
             "valueType" : "BOOLEAN"
           }
         ],
-        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-maps.svg",
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-familycontrols.svg",
         "isPublic" : true,
-        "name" : "Maps",
-        "sfSymbolIcon" : "map",
+        "name" : "Family Controls (Development)",
+        "sfSymbolIcon" : "person.2",
         "supportedProductTypes" : [
           "com.apple.product-type.application",
           "com.apple.product-type.xpc-service"
         ],
         "supportedSDKs" : [
           {
+            "name" : "IOS"
+          },
+          {
+            "name" : "VISION_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_PROGRAM"
+        ]
+      },
+      "id" : "FAMILY_CONTROLS",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "Allows an app to support initiating collaboration using Messages.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Ad hoc",
+            "name" : "AD_HOC"
+          },
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          },
+          {
+            "displayValue" : "App Store Connect",
+            "name" : "STORE"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "Messages Collaboration",
+            "profileKey" : "com.apple.developer.shared-with-you.collaboration",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-messages-collaboration.svg",
+        "isPublic" : true,
+        "name" : "Messages Collaboration",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "MAC_OS"
+          },
+          {
+            "name" : "VISION_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_PROGRAM"
+        ]
+      },
+      "id" : "MESSAGES_COLLABORATION",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "Allows MDM to supplement the Associated Domains that are included with your app with values such as server names that are unique for an environment.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Ad hoc",
+            "name" : "AD_HOC"
+          },
+          {
+            "displayValue" : "Developer ID",
+            "name" : "DEVELOPER_ID"
+          },
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          },
+          {
+            "displayValue" : "App Store Connect",
+            "name" : "STORE"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "MDM Managed Associated Domains Entitlement",
+            "profileKey" : "com.apple.developer.associated-domains.mdm-managed",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-mdm.svg",
+        "isPublic" : true,
+        "name" : "MDM Managed Associated Domains",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "MAC_OS"
+          },
+          {
+            "name" : "TV_OS"
+          },
+          {
+            "name" : "VISION_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM"
+        ]
+      },
+      "id" : "MDM_MANAGED_ASSOCIATED_DOMAINS",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "DriverKit Transport HID for development",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "DriverKit Transport HID (development)",
+            "profileKey" : "com.apple.developer.driverkit.transport.hid",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-driverkit.svg",
+        "isPublic" : true,
+        "name" : "DriverKit Transport HID (development)",
+        "sfSymbolIcon" : "puzzlepiece.extension",
+        "supportedProductTypes" : [
+          "com.apple.product-type.driver-extension"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "DRIVER_KIT"
+          },
+          {
             "name" : "MAC_OS"
           }
         ],
         "validTeamTypes" : [
           "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
-          "APPLE_DEVELOPER_PROGRAM",
-          "XCODE_FREE_PROGRAM"
+          "APPLE_DEVELOPER_PROGRAM"
         ]
       },
-      "id" : "MAPS",
+      "id" : "DRIVERKIT_TRANSPORT_HID_PUB",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "\nEnable a test-only mode where developers can control the timing of operations in fileproviderd, in order to programmatically hit all the possible orderings in what is otherwise a blackbox.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Ad hoc",
+            "name" : "AD_HOC"
+          },
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "FileProvider TestingMode",
+            "profileKey" : "com.apple.developer.fileprovider.testing-mode",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "true"
+              }
+            ],
+            "valueType" : "BOOLEAN"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-file-provider.svg",
+        "isPublic" : true,
+        "name" : "FileProvider Testing Mode",
+        "sfSymbolIcon" : "doc.badge.gearshape",
+        "supportedProductTypes" : [
+          "com.apple.product-type.application",
+          "com.apple.product-type.xpc-service"
+        ],
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          },
+          {
+            "name" : "MAC_OS"
+          },
+          {
+            "name" : "VISION_OS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_ENTERPRISE_PROGRAM",
+          "APPLE_DEVELOPER_PROGRAM"
+        ]
+      },
+      "id" : "FILEPROVIDER_TESTINGMODE",
+      "type" : "capabilities"
+    },
+    {
+      "attributes" : {
+        "description" : "The Journaling Suggestions entitlement allows an application to invoke the suggestion sheet for users to choose what they want to journal about and save it to the app.",
+        "distributionTypes" : [
+          {
+            "displayValue" : "Ad hoc",
+            "name" : "AD_HOC"
+          },
+          {
+            "displayValue" : "Development",
+            "name" : "DEVELOPMENT"
+          },
+          {
+            "displayValue" : "App Store Connect",
+            "name" : "STORE"
+          }
+        ],
+        "enabledByDefault" : false,
+        "entitlements" : [
+          {
+            "name" : "Journaling Suggestions",
+            "profileKey" : "com.apple.developer.journal.allow",
+            "values" : [
+              {
+                "inference" : "constant",
+                "value" : "suggestions"
+              }
+            ],
+            "valueType" : "ARRAY"
+          }
+        ],
+        "imageUrl" : "\/assets\/elements\/icons\/cip\/capabilities\/portal-journaling-suggestions.svg",
+        "isPublic" : true,
+        "name" : "Journaling Suggestions",
+        "sfSymbolIcon" : "pencil.and.sparkles",
+        "supportedSDKs" : [
+          {
+            "name" : "IOS"
+          }
+        ],
+        "validTeamTypes" : [
+          "APPLE_DEVELOPER_PROGRAM"
+        ]
+      },
+      "id" : "JOURNALING_SUGGESTIONS",
       "type" : "capabilities"
     }
   ]
