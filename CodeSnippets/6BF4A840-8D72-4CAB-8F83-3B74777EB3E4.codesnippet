@@ -3,22 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>imageItem</string>
+	<string>getter</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[UIBarButtonItem qmui_itemWithImage:UIImageMake(@"&lt;#image name#&gt;") target:self action:@selector(&lt;#selector name#&gt;)];</string>
+	<string>- (&lt;#类型#&gt; *)&lt;#name#&gt; {
+    if (!_&lt;#name#&gt;) {
+        &lt;#类型#&gt; *obj = [&lt;#类型#&gt; new];
+        _&lt;#name#&gt; = obj;
+    }
+    return _&lt;#name#&gt;;
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3A422B1A-0422-41EC-8CB7-D7B961CDC76D</string>
+	<string>6BF4A840-8D72-4CAB-8F83-3B74777EB3E4</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>getter</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Image UIBarButtonItem</string>
+	<string>getter</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
