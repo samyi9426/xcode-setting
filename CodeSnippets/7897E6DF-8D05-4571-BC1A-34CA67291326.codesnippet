@@ -3,28 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>viewgetter</string>
+	<string>room</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (UIView *)&lt;#view#&gt; {
-    if (!_&lt;#view#&gt;) {
-        UIView *view = [UIView new];
-        _&lt;#view#&gt; = view;
-    }
-    return _&lt;#view#&gt;;
-}
-</string>
+	<string>#import "BMMessageCellCommon.h"</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>BAE5999A-DF20-47C6-B1D0-BB16F3502522</string>
+	<string>7897E6DF-8D05-4571-BC1A-34CA67291326</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>uiview getter</string>
+	<string>room cell commom header</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
