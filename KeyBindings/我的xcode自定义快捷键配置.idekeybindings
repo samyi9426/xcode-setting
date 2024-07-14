@@ -314,26 +314,6 @@
 				<key>Alternate</key>
 				<string>NO</string>
 				<key>CommandID</key>
-				<string>IDESourceEditorExtension:com.intii.CodeiumForXcode.EditorExtension,IDESourceEditorExtensionCommand:com.intii.CodeiumForXcode.EditorExtensionCopilot.SeparatorCommand</string>
-				<key>Group</key>
-				<string>Editor Menu for Source Code</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Codeium</string>
-				<key>Title</key>
-				<string>------</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>_invokeSourceEditorExtensionCommand:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
 				<string>IDESourceEditorExtension:com.intii.CodeiumForXcode.EditorExtension,IDESourceEditorExtensionCommand:com.intii.CodeiumForXcode.EditorExtensionCustomCommandBuiltInCustomCommandAddDocumentationToSelection</string>
 				<key>Group</key>
 				<string>Editor Menu for Source Code</string>
