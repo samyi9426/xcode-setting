@@ -3,27 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>letview</string>
+	<string>sd</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let &lt;#view#&gt;: UIView = {
-        let v = UIView()
-        return v
-    }()</string>
+	<string>s.dependency '&lt;#dependency#&gt;'</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F54FADB3-991C-443C-B002-796817CA8539</string>
+	<string>AB758578-6BF6-4C93-AF2F-E27BED196DE2</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Ruby</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>s.dependency</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>let view</string>
+	<string>s.dependency</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
