@@ -9,15 +9,15 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>print("\(String(describing: self)) \(#function): &lt;# msg info #&gt;")</string>
+	<string>print("\(String(describing: self)) \(#function)- &lt;# msg info #&gt;")</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>C9505A94-423F-4EDF-BC04-70117EF0DB1E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>ll</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>print base info</string>
+	<string>swift log</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
