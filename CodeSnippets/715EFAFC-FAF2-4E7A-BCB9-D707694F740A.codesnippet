@@ -9,18 +9,18 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSLog(@"&lt;#foramt#&gt;"&lt;#data#&gt;)&lt;#;#&gt;</string>
+	<string>NSLog(@"%s &lt;#msg#&gt;", __FUNCTION__&lt;#var#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>BB7BE003-62D7-44B2-A9F9-98864E30CD38</string>
+	<string>715EFAFC-FAF2-4E7A-BCB9-D707694F740A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>nslog</string>
+	<string>oc log</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>nslog</string>
+	<string>oc log</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
