@@ -3,21 +3,33 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ll</string>
+	<string>lazz</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSLog(@"%s &lt;#msg#&gt;", __FUNCTION__&lt;#var#&gt;);</string>
+	<string>private var _&lt;#privateVar#&gt;: &lt;#Type#&gt;?
+
+var &lt;#privateVar#&gt;: &lt;#Type#&gt; {
+    get {
+        if _&lt;#privateVar#&gt; == nil {
+            _&lt;#privateVar#&gt; = &lt;#Type#&gt;()
+        }
+        return _&lt;#privateVar#&gt;!
+    }
+    set {
+        _&lt;#privateVar#&gt; = newValue
+    }
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>715EFAFC-FAF2-4E7A-BCB9-D707694F740A</string>
+	<string>69D62FAE-F81D-4806-B0CE-B2B37C2BA939</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>oc log</string>
+	<string>lazy var custom </string>
 	<key>IDECodeSnippetTitle</key>
-	<string>oc log</string>
+	<string>lazy var custom </string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
