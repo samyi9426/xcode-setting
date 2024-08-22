@@ -3,21 +3,40 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>uilabelp</string>
+	<string>setupviewsandconstraints</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) UILabel *&lt;#name#&gt;;</string>
+	<string>- (void)setupViews {
+    [super setupViews];
+    
+    NSArray *views = @[];
+    for (UIView *view in views) {
+        [self addSubview:view];
+    }
+    
+    [self enableDebugSelfAndSubViewsColor];
+}
+
+- (void)setupConstraints {
+    [super setupConstraints];
+    
+}
+
+- (void)cleanUI {
+    [super cleanUI];
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E8F9DC48-CCB4-41C7-B5D8-7F0B7C9F6AD6</string>
+	<string>9462BCCB-0680-49C7-A18D-D702567FF646</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>setupviewsandconstraints</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>label property</string>
+	<string>setupviewsandconstraints</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>test</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UIButton *)testBtn {
+    if (!_testBtn) {
+        UIButton *button = [UIButton new];
+        button.backgroundColor = UIColor.whiteColor;
+        [button setTitleColor:UIColor.redColor forState:UIControlStateNormal];
+        [button setTitle:@"test" forState:UIControlStateNormal];
+        [button addTarget:self action:@selector(testBtnDidClick) forControlEvents:UIControlEventTouchUpInside];
+        _testBtn = button;
+        //button.hidden = YES;
+    }
+    return _testBtn;
+}
+
+- (void)testBtnDidClick {
+    NSLog(@"%s ", __FUNCTION__);
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0377ECC5-ABE9-4BAB-8EE2-6B0188CF2E7D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>testbtn</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>testbtn</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

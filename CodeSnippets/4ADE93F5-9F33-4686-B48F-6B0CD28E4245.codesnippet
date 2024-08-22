@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>uilabelp</string>
+	<string>masmake</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) UILabel *&lt;#name#&gt;;</string>
+	<string> [self.&lt;#view#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
+        &lt;#make#&gt;
+    }];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E8F9DC48-CCB4-41C7-B5D8-7F0B7C9F6AD6</string>
+	<string>4ADE93F5-9F33-4686-B48F-6B0CD28E4245</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>mas make</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>label property</string>
+	<string>mas make</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
