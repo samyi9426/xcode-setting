@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>addsubview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    override func setupViews() {
+        super.setupViews()
+        let views = [&lt;#maskView#&gt;]
+        views.forEach { view in
+            self.view.addSubview(view)
+        }
+    }
+    
+    override func setupConstraints() {
+        super.setupConstraints()
+        
+        &lt;#约束代码#&gt;
+    }
+    
+#if DEBUG
+    override func cleanUI() {
+        // xib的不做处理
+        //super.cleanUI()
+        
+        // remove subview
+        &lt;#remove subview#&gt;
+        // set nil
+        &lt;#set nil#&gt;
+    }
+#endif</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A64EBF84-4776-4DF3-9D6B-AFFBAAD42416</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>swift setup views &amp;&amp; hot reload</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>swift setup views &amp;&amp; hot reload</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
