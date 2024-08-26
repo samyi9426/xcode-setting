@@ -9,18 +9,15 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@import BMComponent;
-#import &lt;BMCommonProtocol/&lt;#protocool#&gt;&gt;</string>
+	<string>#import "&lt;#header#&gt;"</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>FD80B859-FE2B-450A-A88D-16AB7D23D65E</string>
+	<string>6529CF0F-7413-4A32-BDD7-02FE8A5222FA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>@import BMComponent;
-#import &lt;BMCommonProtocol/&lt;#protocool#&gt;&gt;</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@import BMComponent;
-#import &lt;BMCommonProtocol/&lt;#protocool#&gt;&gt;</string>
+	<string>My Code Snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

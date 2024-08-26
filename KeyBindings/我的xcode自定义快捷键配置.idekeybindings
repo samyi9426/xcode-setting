@@ -2460,22 +2460,21 @@
 		<dict>
 			<key></key>
 			<array>
-				<string>deleteForward:</string>
 				<array>
 					<string>insertNewlineIgnoringFieldEditor:</string>
 					<string>moveBackward:</string>
 				</array>
 			</array>
-			<key></key>
-			<string>deleteBackward:</string>
-			<key>^h</key>
-			<string>deleteBackward:</string>
 			<key>^~</key>
 			<string>deleteWordBackward:</string>
 			<key>~</key>
 			<string>deleteWordBackward:</string>
+			<key></key>
+			<string>deleteBackward:</string>
 			<key></key>
 			<string>moveUp:</string>
+			<key></key>
+			<string>deleteForward:</string>
 		</dict>
 		<key>Version</key>
 		<integer>3</integer>
