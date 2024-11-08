@@ -8,33 +8,11 @@
 		<array>
 			<dict>
 				<key>Action</key>
-				<string>performAlertEvent:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>D6FA1C8E-4026-4413-A01C-2A43E281703F-89607-000172AF1F8187DE</string>
-				<key>Group</key>
-				<string>Xcode Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Xcode</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>$@I</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Behaviors</string>
-				<key>Title</key>
-				<string>Formating Code...</string>
-			</dict>
-			<dict>
-				<key>Action</key>
 				<string>_invokeSourceEditorExtensionCommand:</string>
 				<key>Alternate</key>
 				<string>NO</string>
 				<key>CommandID</key>
-				<string>IDESourceEditorExtension:com.intii.CodeiumForXcode.EditorExtension,IDESourceEditorExtensionCommand:com.intii.CodeiumForXcode.EditorExtensionCopilot.AcceptSuggestionCommand</string>
+				<string>IDESourceEditorExtension:com.baidu.comate.editor,IDESourceEditorExtensionCommand:Comate.AcceptSuggestionCommand</string>
 				<key>Group</key>
 				<string>Editor Menu for Source Code</string>
 				<key>GroupID</key>
@@ -44,9 +22,9 @@
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Parent Title</key>
-				<string>Codeium</string>
+				<string>Comate</string>
 				<key>Title</key>
-				<string>Accept Suggestion</string>
+				<string>采纳推荐</string>
 			</dict>
 			<dict>
 				<key>Action</key>
@@ -54,7 +32,7 @@
 				<key>Alternate</key>
 				<string>NO</string>
 				<key>CommandID</key>
-				<string>IDESourceEditorExtension:com.intii.CodeiumForXcode.EditorExtension,IDESourceEditorExtensionCommand:com.intii.CodeiumForXcode.EditorExtensionCopilot.GetSuggestionsCommand</string>
+				<string>IDESourceEditorExtension:com.baidu.comate.editor,IDESourceEditorExtensionCommand:Comate.ChatWithSelectionCommand</string>
 				<key>Group</key>
 				<string>Editor Menu for Source Code</string>
 				<key>GroupID</key>
@@ -64,9 +42,9 @@
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Parent Title</key>
-				<string>Codeium</string>
+				<string>Comate</string>
 				<key>Title</key>
-				<string>Get Suggestions</string>
+				<string>打开聊天</string>
 			</dict>
 			<dict>
 				<key>Action</key>
@@ -74,7 +52,7 @@
 				<key>Alternate</key>
 				<string>NO</string>
 				<key>CommandID</key>
-				<string>IDESourceEditorExtension:com.intii.CodeiumForXcode.EditorExtension,IDESourceEditorExtensionCommand:com.intii.CodeiumForXcode.EditorExtensionCopilot.NextSuggestionCommand</string>
+				<string>IDESourceEditorExtension:com.baidu.comate.editor,IDESourceEditorExtensionCommand:Comate.GetSuggestionsCommand</string>
 				<key>Group</key>
 				<string>Editor Menu for Source Code</string>
 				<key>GroupID</key>
@@ -84,9 +62,9 @@
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Parent Title</key>
-				<string>Codeium</string>
+				<string>Comate</string>
 				<key>Title</key>
-				<string>Next Suggestion</string>
+				<string>获取推荐</string>
 			</dict>
 			<dict>
 				<key>Action</key>
@@ -94,7 +72,7 @@
 				<key>Alternate</key>
 				<string>NO</string>
 				<key>CommandID</key>
-				<string>IDESourceEditorExtension:com.intii.CodeiumForXcode.EditorExtension,IDESourceEditorExtensionCommand:com.intii.CodeiumForXcode.EditorExtensionCopilot.PrefetchSuggestionsCommand</string>
+				<string>IDESourceEditorExtension:com.baidu.comate.editor,IDESourceEditorExtensionCommand:Comate.NextSuggestionCommand</string>
 				<key>Group</key>
 				<string>Editor Menu for Source Code</string>
 				<key>GroupID</key>
@@ -104,9 +82,9 @@
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Parent Title</key>
-				<string>Codeium</string>
+				<string>Comate</string>
 				<key>Title</key>
-				<string>Prefetch Suggestions</string>
+				<string>下一条</string>
 			</dict>
 			<dict>
 				<key>Action</key>
@@ -114,7 +92,7 @@
 				<key>Alternate</key>
 				<string>NO</string>
 				<key>CommandID</key>
-				<string>IDESourceEditorExtension:com.intii.CodeiumForXcode.EditorExtension,IDESourceEditorExtensionCommand:com.intii.CodeiumForXcode.EditorExtensionCopilot.PreviousSuggestionCommand</string>
+				<string>IDESourceEditorExtension:com.baidu.comate.editor,IDESourceEditorExtensionCommand:Comate.PreviousSuggestionCommand</string>
 				<key>Group</key>
 				<string>Editor Menu for Source Code</string>
 				<key>GroupID</key>
@@ -124,9 +102,9 @@
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Parent Title</key>
-				<string>Codeium</string>
+				<string>Comate</string>
 				<key>Title</key>
-				<string>Previous Suggestion</string>
+				<string>上一条</string>
 			</dict>
 			<dict>
 				<key>Action</key>
@@ -134,7 +112,7 @@
 				<key>Alternate</key>
 				<string>NO</string>
 				<key>CommandID</key>
-				<string>IDESourceEditorExtension:com.intii.CodeiumForXcode.EditorExtension,IDESourceEditorExtensionCommand:com.intii.CodeiumForXcode.EditorExtensionCopilot.RealtimeSuggestionsCommand</string>
+				<string>IDESourceEditorExtension:com.baidu.comate.editor,IDESourceEditorExtensionCommand:Comate.RejectSuggestionCommand</string>
 				<key>Group</key>
 				<string>Editor Menu for Source Code</string>
 				<key>GroupID</key>
@@ -144,129 +122,9 @@
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Parent Title</key>
-				<string>Codeium</string>
+				<string>Comate</string>
 				<key>Title</key>
-				<string>Real-time Suggestions</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>_invokeSourceEditorExtensionCommand:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>IDESourceEditorExtension:com.intii.CodeiumForXcode.EditorExtension,IDESourceEditorExtensionCommand:com.intii.CodeiumForXcode.EditorExtensionCopilot.RejectSuggestionCommand</string>
-				<key>Group</key>
-				<string>Editor Menu for Source Code</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Codeium</string>
-				<key>Title</key>
-				<string>Reject Suggestion</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>_invokeSourceEditorExtensionCommand:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>IDESourceEditorExtension:com.intii.CodeiumForXcode.EditorExtension,IDESourceEditorExtensionCommand:com.intii.CodeiumForXcode.EditorExtensionCopilot.SeparatorCommand</string>
-				<key>Group</key>
-				<string>Editor Menu for Source Code</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Codeium</string>
-				<key>Title</key>
-				<string>------</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>_invokeSourceEditorExtensionCommand:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>IDESourceEditorExtension:com.intii.CodeiumForXcode.EditorExtension,IDESourceEditorExtensionCommand:com.intii.CodeiumForXcode.EditorExtensionCopilot.SeparatorCommand</string>
-				<key>Group</key>
-				<string>Editor Menu for Source Code</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Codeium</string>
-				<key>Title</key>
-				<string>------</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>_invokeSourceEditorExtensionCommand:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>IDESourceEditorExtension:com.intii.CodeiumForXcode.EditorExtension,IDESourceEditorExtensionCommand:com.intii.CodeiumForXcode.EditorExtensionCustomCommandBuiltInCustomCommandAddDocumentationToSelection</string>
-				<key>Group</key>
-				<string>Editor Menu for Source Code</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Codeium</string>
-				<key>Title</key>
-				<string>Add Documentation to Selection</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>_invokeSourceEditorExtensionCommand:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>IDESourceEditorExtension:com.intii.CodeiumForXcode.EditorExtension,IDESourceEditorExtensionCommand:com.intii.CodeiumForXcode.EditorExtensionCustomCommandBuiltInCustomCommandExplainSelection</string>
-				<key>Group</key>
-				<string>Editor Menu for Source Code</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Codeium</string>
-				<key>Title</key>
-				<string>Explain Selection</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>_invokeSourceEditorExtensionCommand:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>IDESourceEditorExtension:com.intii.CodeiumForXcode.EditorExtension,IDESourceEditorExtensionCommand:com.intii.CodeiumForXcode.EditorExtensionCustomCommandBuiltInCustomCommandSendCodeToChat</string>
-				<key>Group</key>
-				<string>Editor Menu for Source Code</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Codeium</string>
-				<key>Title</key>
-				<string>Send Selected Code to Chat</string>
+				<string>不予采纳</string>
 			</dict>
 			<dict>
 				<key>Action</key>
@@ -314,26 +172,6 @@
 				<key>Alternate</key>
 				<string>NO</string>
 				<key>CommandID</key>
-				<string>IDESourceEditorExtension:com.intii.CopilotForXcode.EditorExtension,IDESourceEditorExtensionCommand:com.intii.CopilotForXcode.EditorExtensionCopilot.ChatWithSelectionCommand</string>
-				<key>Group</key>
-				<string>Editor Menu for Source Code</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Copilot</string>
-				<key>Title</key>
-				<string>Open Chat</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>_invokeSourceEditorExtensionCommand:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
 				<string>IDESourceEditorExtension:com.intii.CopilotForXcode.EditorExtension,IDESourceEditorExtensionCommand:com.intii.CopilotForXcode.EditorExtensionCopilot.GetSuggestionsCommand</string>
 				<key>Group</key>
 				<string>Editor Menu for Source Code</string>
@@ -367,6 +205,26 @@
 				<string>Copilot</string>
 				<key>Title</key>
 				<string>Next Suggestion</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>_invokeSourceEditorExtensionCommand:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>IDESourceEditorExtension:com.intii.CopilotForXcode.EditorExtension,IDESourceEditorExtensionCommand:com.intii.CopilotForXcode.EditorExtensionCopilot.OpenChatCommand</string>
+				<key>Group</key>
+				<string>Editor Menu for Source Code</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Copilot</string>
+				<key>Title</key>
+				<string>Open Chat</string>
 			</dict>
 			<dict>
 				<key>Action</key>
@@ -446,7 +304,7 @@
 				<key>Parent Title</key>
 				<string>Copilot</string>
 				<key>Title</key>
-				<string>Real-time Suggestions</string>
+				<string>Prepare for Real-time Suggestions</string>
 			</dict>
 			<dict>
 				<key>Action</key>
@@ -514,6 +372,26 @@
 				<key>Alternate</key>
 				<string>NO</string>
 				<key>CommandID</key>
+				<string>IDESourceEditorExtension:com.intii.CopilotForXcode.EditorExtension,IDESourceEditorExtensionCommand:com.intii.CopilotForXcode.EditorExtensionCopilot.ToggleRealtimeSuggestionsCommand</string>
+				<key>Group</key>
+				<string>Editor Menu for Source Code</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Copilot</string>
+				<key>Title</key>
+				<string>Toggle Real-time Suggestions</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>_invokeSourceEditorExtensionCommand:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
 				<string>IDESourceEditorExtension:com.intii.CopilotForXcode.EditorExtension,IDESourceEditorExtensionCommand:com.intii.CopilotForXcode.EditorExtensionCustomCommandBuiltInCustomCommandAddDocumentationToSelection</string>
 				<key>Group</key>
 				<string>Editor Menu for Source Code</string>
@@ -550,109 +428,13 @@
 			</dict>
 			<dict>
 				<key>Action</key>
-				<string>_invokeSourceEditorExtensionCommand:</string>
+				<string>newFolder:</string>
 				<key>Alternate</key>
 				<string>NO</string>
+				<key>CommandGroupID</key>
+				<string>IDENewGrouping</string>
 				<key>CommandID</key>
-				<string>IDESourceEditorExtension:com.sugarmo.XCFormat.SourceExtension,IDESourceEditorExtensionCommand:com.sugarmo.XCFormat.SourceExtension.FormatActiveFile</string>
-				<key>Group</key>
-				<string>Editor Menu for Source Code</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>XCFormat</string>
-				<key>Title</key>
-				<string>Format Active File</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>_invokeSourceEditorExtensionCommand:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>IDESourceEditorExtension:com.sugarmo.XCFormat.SourceExtension,IDESourceEditorExtensionCommand:com.sugarmo.XCFormat.SourceExtension.FormatSelctedLines</string>
-				<key>Group</key>
-				<string>Editor Menu for Source Code</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>XCFormat</string>
-				<key>Title</key>
-				<string>Format Selected Lines</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>_invokeSourceEditorExtensionCommand:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>IDESourceEditorExtension:com.tid.Alignment-for-Xcode.Alignment,IDESourceEditorExtensionCommand:com.tid.XcodeSourceEditorExtension-Alignment.Alignment.SourceEditorCommand</string>
-				<key>Group</key>
-				<string>Editor Menu for Source Code</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Alignment</string>
-				<key>Title</key>
-				<string>Align</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>showCallHierarchy:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.CallHierarchy</string>
-				<key>Group</key>
-				<string>Find Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Main</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>$@S</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Find Call Hierarchy</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>duplicate:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.Duplicate</string>
-				<key>Group</key>
-				<string>Edit Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Main</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Duplicate</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>ide_duplicateDocument:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.DuplicateDocument</string>
+				<string>Xcode.IDEKit.CmdDefinition.NewFolder</string>
 				<key>Group</key>
 				<string>File Menu</string>
 				<key>GroupID</key>
@@ -660,263 +442,13 @@
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Keyboard Shortcut</key>
-				<string>^$D</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Duplicate…</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>findInWorkspace:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.FindInWorkspace</string>
-				<key>Group</key>
-				<string>Find Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Main</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Find in Workspace…</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>findSelectedTextInWorkspace:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.FindSelectedTextInWorkspace</string>
-				<key>Group</key>
-				<string>Find Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Main</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>$@D</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Find Selected Text in Workspace</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>installActiveRunContext:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.Install</string>
-				<key>Group</key>
-				<string>Product Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Main</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Copy to Device (Internal Only)</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>revealInDebugNavigator:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.RevealInDebugNavigator</string>
-				<key>Group</key>
-				<string>Navigate Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Main</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Reveal in Debug Navigator</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>revealInProjectNavigator:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.RevealInProjectNavigator</string>
-				<key>Group</key>
-				<string>Navigate Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Main</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>$@X</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Reveal in Project Navigator</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>ide_saveDocumentAs:</string>
-				<key>Alternate</key>
-				<string>YES</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.SaveDocumentAs</string>
-				<key>Group</key>
-				<string>File Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Main</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>^~$D</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Save As…</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>showDocumentItemsMenu:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.ShowDocumentItemsMenu</string>
-				<key>Group</key>
-				<string>View Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Main</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>@d</string>
+				<string>~@n</string>
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Parent Title</key>
-				<string>Editor</string>
+				<string>New</string>
 				<key>Title</key>
-				<string>Show Document Items</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>decreaseFontSize:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.DecreaseFontSize</string>
-				<key>Group</key>
-				<string>Editor Menu for Asset Catalog Comparison</string>
-				<key>GroupID</key>
-				<string>Xcode.DeltaComparisonEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>~@-</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Font Size</string>
-				<key>Title</key>
-				<string>Decrease</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>increaseFontSize:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.IncreaseFontSize</string>
-				<key>Group</key>
-				<string>Editor Menu for Asset Catalog Comparison</string>
-				<key>GroupID</key>
-				<string>Xcode.DeltaComparisonEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>~@=</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Font Size</string>
-				<key>Title</key>
-				<string>Increase</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>unfoldAllComments:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandGroupID</key>
-				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.UnfoldCommentBlocks</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.UnfoldCommentBlocks</string>
-				<key>Group</key>
-				<string>Editor Menu for Asset Catalog Comparison</string>
-				<key>GroupID</key>
-				<string>Xcode.DeltaComparisonEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>@=</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Code Folding</string>
-				<key>Title</key>
-				<string>Unfold Comment Blocks</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>unfoldAllComments:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandGroupID</key>
-				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.UnfoldCommentBlocks</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.UnfoldCommentBlocks</string>
-				<key>Group</key>
-				<string>Editor Menu for Playground</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEPlaygroundEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>@=</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Code Folding</string>
-				<key>Title</key>
-				<string>Unfold Comment Blocks</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>unfoldAllComments:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandGroupID</key>
-				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.UnfoldCommentBlocks</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.UnfoldCommentBlocks</string>
-				<key>Group</key>
-				<string>Editor Menu for Source Code</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>@=</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Code Folding</string>
-				<key>Title</key>
-				<string>Unfold Comment Blocks</string>
+				<string>Folder</string>
 			</dict>
 		</array>
 		<key>Version</key>
